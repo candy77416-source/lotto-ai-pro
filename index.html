@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#101b2d">
+<title>LOTTO AI PRO</title>
+<style>
+*{box-sizing:border-box}
+body{background:#101b2d;color:#fff;font-family:Arial,sans-serif;margin:0;padding:20px}
+h1,h2{color:#e6c580}
+h1{font-size:28px;margin-bottom:5px}
+small,p{color:#b3c0d5}
+.card{background:#1c2a40;border-radius:16px;padding:16px;margin:15px 0}
+button{background:#e6c580;color:#101b2d;border:0;border-radius:10px;padding:14px;font-size:16px;font-weight:bold;width:100%;margin-top:10px}
+textarea,select{width:100%;background:#101b2d;color:white;border:1px solid #536077;border-radius:10px;padding:12px;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.ball{text-align:center;background:#293950;border-radius:10px;padding:9px 0;color:#e6c580;font-weight:bold}
+.ball small{display:block;font-size:10px;margin-top:4px}
+.hot{background:#e6c580;color:#101b2d}
+.hot small{color:#101b2d}
+table{width:100%;border-collapse:collapse}
+td,th{padding:10px 4px;text-align:center;border-bottom:1px solid #35445a}
+th{color:#e6c580}
+</style>
+</head>
+<body>
+<h1>LOTTO AI PRO</h1>
+<small>私人數據研究室 V1.0</small>
+
+<div class="card">
+<h2>研究總覽</h2>
+<p>已匯入資料：<strong id="count">0</strong> 期</p>
+<p>研究彩種：大樂透 6/49</p>
+<p>模擬投注成本：NT$0</p>
+<div class="grid" id="matrix"></div>
+</div>
+
+<div class="card">
+<h2>歷史資料庫</h2>
+<p>每行輸入一期六個主號，不含特別號，由最舊到最新排列。</p>
+<textarea id="history" rows="8" placeholder="01 08 15 23 36 42"></textarea>
+<button onclick="analyze()">儲存並分析資料</button>
+<p id="message"></p>
+</div>
+
+<div class="card">
+<h2>冷熱號統計</h2>
+<select id="period" onchange="analyze()">
+<option value="10">最近10期</option>
+<option value="20">最近20期</option>
+<option value="30" selected>最近30期</option>
+<option value="50">最近50期</option>
+<option value="100">最近100期</option>
+<option value="999999">全部資料</option>
+</select>
+<p id="summary"></p>
+<table>
+<thead>
+<tr><th>號碼</th><th>出現次數</th><th>遺漏期數</th></tr>
+</thead>
+<tbody id="stats"></tbody>
+</table>
+</div>
+
+<div class="card">
+<h2>研究模組</h2>
+<p>✓ 歷史開獎資料庫</p>
+<p>✓ 冷熱號分析</p>
+<p>✓ 遺漏期數分析</p>
+<p>○ 三彩連動研究（待開發）</p>
+<p>○ 兩碼及三碼統計（待開發）</p>
+<p>○ 歷史盲測（待開發）</p>
+<p>○ 隨機策略比較（待開發）</p>
+</div>
+
+<p>歷史統計不代表未來開獎機率，僅供數據研究。</p>
+
+<script>
+function analyze(){
+ const raw=document.getElementById('history').value;
+ let invalid=0;
+ const rows=raw.split('\n').filter(x=>x.trim()).map(line=>{
+  const a=line.trim().split(/[\s,，、.]+/).map(Number);
+  if(a.length!==6||new Set(a).size!==6||
+  a.some(n=>!Number.isInteger(n)||n<1||n>49)){
+   invalid++;
+   return null;
+  }
+  return a;
+ }).filter(Boolean);
+
+ try{
+ localStorage.setItem('lotto_history',raw);
+ }catch(e){}
+
+ const limit=Number(document.getElementById('period').value);
+ const sample=rows.slice(-limit);
+ const stats=Array.from({length:49},(_,i)=>{
+  const n=i+1;
+  const count=sample.filter(a=>a.includes(n)).length;
+  let gap=0;
+  for(let j=rows.length-1;j>=0;j--){
+   if(rows[j].includes(n))break;
+   gap++;
+  }
+  return {n,count,gap};
+ });
+
+ document.getElementById('count').textContent=rows.length;
+ document.getElementById('message').textContent=
+ '有效資料：'+rows.length+'期；無效資料：'+invalid+'行';
+ document.getElementById('summary').textContent=
+ '實際分析：'+sample.length+'期';
+
+ const max=Math.max(...stats.map(s=>s.count));
+ document.getElementById('matrix').innerHTML=stats.map(s=>
+ `<div class="ball ${max>0&&s.count===max?'hot':''}">
+ ${String(s.n).padStart(2,'0')}
+ <small>${s.count}次</small></div>`
+ ).join('');
+
+ document.getElementById('stats').innerHTML=
+ [...stats].sort((a,b)=>b.count-a.count||a.n-b.n).map(s=>
+ `<tr><td>${String(s.n).padStart(2,'0')}</td>
+ <td>${s.count}</td><td>${rows.length===0?'—':s.gap===rows.length?'至少'+s.gap:s.gap}</td></tr>`
+ ).join('');
+}
+
+try{
+ document.getElementById('history').value=
+ localStorage.getItem('lotto_history')||'';
+}catch(e){}
+analyze();
+</script>
+</body>
+</html>
