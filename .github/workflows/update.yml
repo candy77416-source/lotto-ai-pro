@@ -1,0 +1,37 @@
+
+name: Update Lottery Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 14 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update lottery data
+        run: python update_data.py
+
+      - name: Save updated data
+        run: |
+          git config user.name "lotto-ai-bot"
+          git config user.email "lotto-ai-bot@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update lottery data"
+            git push
+          fi
