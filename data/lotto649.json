@@ -1,370 +1,8124 @@
 {
-  "source": "https://api.taiwanlottery.com/TLCAPIWeB/Lottery/Lotto649Result?period=&month=2026-11&pageNum=1&pageSize=50",
-  "updated_at": "2026-11-25T10:48:35.201885+08:00",
-  "count": 7,
+  "game": "lotto649",
+  "source": "https://api.taiwanlottery.com/TLCAPIWeB/Lottery/Lotto649Result",
+  "updated_at": "2026-11-25T11:44:43.621803+08:00",
+  "count": 117,
+  "completed_months": [
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11"
+  ],
+  "failed_months": [],
   "records": [
     {
-      "period": 115000108,
-      "lotteryDate": "2026-11-24T00:00:00",
-      "redeemableDate": "2027-02-24T00:00:00",
+      "period": 114000110,
+      "lotteryDate": "2025-12-02T00:00:00",
+      "redeemableDate": "2026-03-02T00:00:00",
       "drawNumberSize": [
-        10,
-        11,
+        14,
+        20,
+        32,
+        35,
+        42,
+        48,
+        28
+      ],
+      "drawNumberAppear": [
+        48,
+        20,
+        32,
+        14,
+        35,
+        42,
+        28
+      ],
+      "totalAmount": 145471695,
+      "sellAmount": 107985550,
+      "jackpotAssign": {
+        "prize": 26366368,
+        "lastPrize": 84999787,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2090017,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 2250787,
+        "lastPrize": 0,
+        "winnerCount": 43,
+        "perPrize": 52343
+      },
+      "fourthAssign": {
+        "prize": 1446934,
+        "lastPrize": 0,
+        "winnerCount": 92,
+        "perPrize": 15727
+      },
+      "fifthAssign": {
+        "prize": 3282000,
+        "lastPrize": 0,
+        "winnerCount": 1641,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2477000,
+        "lastPrize": 0,
+        "winnerCount": 2477,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9832800,
+        "lastPrize": 0,
+        "winnerCount": 24582,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12726000,
+        "lastPrize": 0,
+        "winnerCount": 31815,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 114000111,
+      "lotteryDate": "2025-12-05T00:00:00",
+      "redeemableDate": "2026-03-09T00:00:00",
+      "drawNumberSize": [
+        8,
+        15,
         23,
         24,
+        41,
+        47,
+        2
+      ],
+      "drawNumberAppear": [
+        24,
+        41,
+        23,
+        47,
+        15,
+        8,
+        2
+      ],
+      "totalAmount": 175137736,
+      "sellAmount": 110145650,
+      "jackpotAssign": {
+        "prize": 22310366,
+        "lastPrize": 111366155,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1768504,
+        "lastPrize": 2090017,
+        "winnerCount": 3,
+        "perPrize": 1286173
+      },
+      "thirdAssign": {
+        "prize": 1904543,
+        "lastPrize": 0,
+        "winnerCount": 40,
+        "perPrize": 47613
+      },
+      "fourthAssign": {
+        "prize": 1224349,
+        "lastPrize": 0,
+        "winnerCount": 163,
+        "perPrize": 7511
+      },
+      "fifthAssign": {
+        "prize": 4258000,
+        "lastPrize": 0,
+        "winnerCount": 2129,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3341000,
+        "lastPrize": 0,
+        "winnerCount": 3341,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 12280000,
+        "lastPrize": 0,
+        "winnerCount": 30700,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14594800,
+        "lastPrize": 0,
+        "winnerCount": 36487,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 114000112,
+      "lotteryDate": "2025-12-09T00:00:00",
+      "redeemableDate": "2026-03-09T00:00:00",
+      "drawNumberSize": [
+        5,
+        10,
+        18,
+        26,
+        28,
+        44,
+        48
+      ],
+      "drawNumberAppear": [
+        18,
+        10,
+        26,
+        44,
+        5,
+        28,
+        48
+      ],
+      "totalAmount": 200218829,
+      "sellAmount": 118825550,
+      "jackpotAssign": {
+        "prize": 25690196,
+        "lastPrize": 133676521,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2036418,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 2193065,
+        "lastPrize": 0,
+        "winnerCount": 43,
+        "perPrize": 51001
+      },
+      "fourthAssign": {
+        "prize": 1409827,
+        "lastPrize": 0,
+        "winnerCount": 141,
+        "perPrize": 9998
+      },
+      "fifthAssign": {
+        "prize": 4908000,
+        "lastPrize": 0,
+        "winnerCount": 2454,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2800000,
+        "lastPrize": 0,
+        "winnerCount": 2800,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10502000,
+        "lastPrize": 0,
+        "winnerCount": 26255,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 17002800,
+        "lastPrize": 0,
+        "winnerCount": 42507,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 114000113,
+      "lotteryDate": "2025-12-12T00:00:00",
+      "redeemableDate": "2026-03-16T00:00:00",
+      "drawNumberSize": [
+        15,
+        17,
+        24,
+        26,
+        40,
+        47,
+        33
+      ],
+      "drawNumberAppear": [
+        24,
+        26,
+        40,
+        15,
+        47,
+        17,
+        33
+      ],
+      "totalAmount": 229411579,
+      "sellAmount": 121443650,
+      "jackpotAssign": {
+        "prize": 29755212,
+        "lastPrize": 159366717,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2358644,
+        "lastPrize": 2036418,
+        "winnerCount": 1,
+        "perPrize": 4395062
+      },
+      "thirdAssign": {
+        "prize": 2540079,
+        "lastPrize": 0,
+        "winnerCount": 29,
+        "perPrize": 87588
+      },
+      "fourthAssign": {
+        "prize": 1632907,
+        "lastPrize": 0,
+        "winnerCount": 93,
+        "perPrize": 17558
+      },
+      "fifthAssign": {
+        "prize": 3870000,
+        "lastPrize": 0,
+        "winnerCount": 1935,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2606000,
+        "lastPrize": 0,
+        "winnerCount": 2606,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11182400,
+        "lastPrize": 0,
+        "winnerCount": 27956,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14063200,
+        "lastPrize": 0,
+        "winnerCount": 35158,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 114000114,
+      "lotteryDate": "2025-12-16T00:00:00",
+      "redeemableDate": "2026-03-16T00:00:00",
+      "drawNumberSize": [
+        6,
+        7,
+        15,
+        19,
+        24,
         33,
-        42,
-        40
+        46
       ],
       "drawNumberAppear": [
         33,
-        11,
-        23,
-        10,
+        15,
+        6,
+        7,
         24,
-        42,
-        40
+        19,
+        46
       ],
-      "totalAmount": 58936473,
-      "sellAmount": 90465650,
+      "totalAmount": 261612249,
+      "sellAmount": 129447000,
       "jackpotAssign": {
-        "prize": 18266126,
+        "prize": 28101498,
+        "lastPrize": 189121929,
+        "winnerCount": 1,
+        "perPrize": 217223427
+      },
+      "secondAssign": {
+        "prize": 2227557,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 1113778
+      },
+      "thirdAssign": {
+        "prize": 2398908,
+        "lastPrize": 0,
+        "winnerCount": 37,
+        "perPrize": 64835
+      },
+      "fourthAssign": {
+        "prize": 1542155,
+        "lastPrize": 0,
+        "winnerCount": 114,
+        "perPrize": 13527
+      },
+      "fifthAssign": {
+        "prize": 5406000,
+        "lastPrize": 0,
+        "winnerCount": 2703,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2895000,
+        "lastPrize": 0,
+        "winnerCount": 2895,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11528000,
+        "lastPrize": 0,
+        "winnerCount": 28820,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 18391200,
+        "lastPrize": 0,
+        "winnerCount": 45978,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 114000115,
+      "lotteryDate": "2025-12-19T00:00:00",
+      "redeemableDate": "2026-03-23T00:00:00",
+      "drawNumberSize": [
+        6,
+        8,
+        11,
+        12,
+        18,
+        46,
+        37
+      ],
+      "drawNumberAppear": [
+        12,
+        6,
+        8,
+        46,
+        18,
+        11,
+        37
+      ],
+      "totalAmount": 56109396,
+      "sellAmount": 100195350,
+      "jackpotAssign": {
+        "prize": 17001712,
         "lastPrize": 0,
         "winnerCount": 0,
         "perPrize": 0
       },
       "secondAssign": {
-        "prize": 1447924,
-        "lastPrize": 8275709,
-        "winnerCount": 0,
-        "perPrize": 0
+        "prize": 1347696,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 673848
       },
       "thirdAssign": {
-        "prize": 1559303,
+        "prize": 1451365,
         "lastPrize": 0,
-        "winnerCount": 64,
-        "perPrize": 24364
+        "winnerCount": 50,
+        "perPrize": 29027
       },
       "fourthAssign": {
-        "prize": 1002409,
+        "prize": 933020,
         "lastPrize": 0,
-        "winnerCount": 84,
-        "perPrize": 11933
+        "winnerCount": 169,
+        "perPrize": 5520
       },
       "fifthAssign": {
-        "prize": 4100000,
+        "prize": 5310000,
         "lastPrize": 0,
-        "winnerCount": 2050,
+        "winnerCount": 2655,
         "perPrize": 2000
       },
       "sixthAssign": {
-        "prize": 2385000,
+        "prize": 2794000,
         "lastPrize": 0,
-        "winnerCount": 2385,
+        "winnerCount": 2794,
         "perPrize": 1000
       },
       "seventhAssign": {
-        "prize": 8320000,
+        "prize": 10372800,
         "lastPrize": 0,
-        "winnerCount": 20800,
+        "winnerCount": 25932,
         "perPrize": 400
       },
       "normalAssign": {
-        "prize": 13580000,
+        "prize": 16898800,
         "lastPrize": 0,
-        "winnerCount": 33950,
+        "winnerCount": 42247,
         "perPrize": 400
       }
     },
     {
-      "period": 115000107,
-      "lotteryDate": "2026-11-20T00:00:00",
-      "redeemableDate": "2027-02-22T00:00:00",
+      "period": 114000116,
+      "lotteryDate": "2025-12-23T00:00:00",
+      "redeemableDate": "2026-03-23T00:00:00",
       "drawNumberSize": [
         1,
-        2,
-        4,
+        3,
         12,
-        16,
-        38,
-        44
+        33,
+        39,
+        41,
+        29
       ],
       "drawNumberAppear": [
-        1,
-        16,
-        4,
-        38,
+        39,
+        3,
         12,
-        2,
-        44
+        41,
+        33,
+        1,
+        29
       ],
-      "totalAmount": 141528594,
-      "sellAmount": 92818900,
+      "totalAmount": 77114212,
+      "sellAmount": 107343750,
       "jackpotAssign": {
-        "prize": 37706037,
-        "lastPrize": 62293963,
+        "prize": 22651270,
+        "lastPrize": 17001712,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1795527,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 897763
+      },
+      "thirdAssign": {
+        "prize": 1933645,
+        "lastPrize": 0,
+        "winnerCount": 42,
+        "perPrize": 46039
+      },
+      "fourthAssign": {
+        "prize": 1243057,
+        "lastPrize": 0,
+        "winnerCount": 95,
+        "perPrize": 13084
+      },
+      "fifthAssign": {
+        "prize": 3862000,
+        "lastPrize": 0,
+        "winnerCount": 1931,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2753000,
+        "lastPrize": 0,
+        "winnerCount": 2753,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11130800,
+        "lastPrize": 0,
+        "winnerCount": 27827,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14743200,
+        "lastPrize": 0,
+        "winnerCount": 36858,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 114000117,
+      "lotteryDate": "2025-12-26T00:00:00",
+      "redeemableDate": "2026-03-30T00:00:00",
+      "drawNumberSize": [
+        5,
+        7,
+        9,
+        14,
+        17,
+        30,
+        47
+      ],
+      "drawNumberAppear": [
+        7,
+        5,
+        17,
+        30,
+        14,
+        9,
+        47
+      ],
+      "totalAmount": 137463561,
+      "sellAmount": 98026350,
+      "jackpotAssign": {
+        "prize": 60347018,
+        "lastPrize": 39652982,
+        "winnerCount": 1,
+        "perPrize": 100000000
+      },
+      "secondAssign": {
+        "prize": 1381741,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1381741
+      },
+      "thirdAssign": {
+        "prize": 1488028,
+        "lastPrize": 0,
+        "winnerCount": 57,
+        "perPrize": 26105
+      },
+      "fourthAssign": {
+        "prize": 956590,
+        "lastPrize": 0,
+        "winnerCount": 91,
+        "perPrize": 10511
+      },
+      "fifthAssign": {
+        "prize": 5264000,
+        "lastPrize": 0,
+        "winnerCount": 2632,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2492000,
+        "lastPrize": 0,
+        "winnerCount": 2492,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9074400,
+        "lastPrize": 0,
+        "winnerCount": 22686,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 16806800,
+        "lastPrize": 0,
+        "winnerCount": 42017,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 114000118,
+      "lotteryDate": "2025-12-30T00:00:00",
+      "redeemableDate": "2026-03-30T00:00:00",
+      "drawNumberSize": [
+        5,
+        10,
+        15,
+        20,
+        24,
+        29,
+        34
+      ],
+      "drawNumberAppear": [
+        24,
+        10,
+        15,
+        5,
+        20,
+        29,
+        34
+      ],
+      "totalAmount": 57499428,
+      "sellAmount": 102677550,
+      "jackpotAssign": {
+        "prize": 20114458,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1594438,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1717087,
+        "lastPrize": 0,
+        "winnerCount": 48,
+        "perPrize": 35772
+      },
+      "fourthAssign": {
+        "prize": 1103842,
+        "lastPrize": 0,
+        "winnerCount": 87,
+        "perPrize": 12687
+      },
+      "fifthAssign": {
+        "prize": 5198000,
+        "lastPrize": 0,
+        "winnerCount": 2599,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2422000,
+        "lastPrize": 0,
+        "winnerCount": 2422,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9569200,
+        "lastPrize": 0,
+        "winnerCount": 23923,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15780400,
+        "lastPrize": 0,
+        "winnerCount": 39451,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000001,
+      "lotteryDate": "2026-01-02T00:00:00",
+      "redeemableDate": "2026-04-07T00:00:00",
+      "drawNumberSize": [
+        3,
+        7,
+        16,
+        19,
+        40,
+        42,
+        12
+      ],
+      "drawNumberAppear": [
+        16,
+        40,
+        19,
+        42,
+        3,
+        7,
+        12
+      ],
+      "totalAmount": 79764040,
+      "sellAmount": 103669900,
+      "jackpotAssign": {
+        "prize": 22253442,
+        "lastPrize": 20114458,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1763992,
+        "lastPrize": 1594438,
+        "winnerCount": 1,
+        "perPrize": 3358430
+      },
+      "thirdAssign": {
+        "prize": 1899684,
+        "lastPrize": 0,
+        "winnerCount": 20,
+        "perPrize": 94984
+      },
+      "fourthAssign": {
+        "prize": 1221225,
+        "lastPrize": 0,
+        "winnerCount": 94,
+        "perPrize": 12991
+      },
+      "fifthAssign": {
+        "prize": 3310000,
+        "lastPrize": 0,
+        "winnerCount": 1655,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2876000,
+        "lastPrize": 0,
+        "winnerCount": 2876,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11870000,
+        "lastPrize": 0,
+        "winnerCount": 29675,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12860800,
+        "lastPrize": 0,
+        "winnerCount": 32152,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000002,
+      "lotteryDate": "2026-01-06T00:00:00",
+      "redeemableDate": "2026-04-07T00:00:00",
+      "drawNumberSize": [
+        2,
+        23,
+        33,
+        38,
+        39,
+        45,
+        6
+      ],
+      "drawNumberAppear": [
+        33,
+        45,
+        23,
+        2,
+        39,
+        38,
+        6
+      ],
+      "totalAmount": 100336832,
+      "sellAmount": 103515950,
+      "jackpotAssign": {
+        "prize": 22133384,
+        "lastPrize": 42367900,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1754475,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1754475
+      },
+      "thirdAssign": {
+        "prize": 1889435,
+        "lastPrize": 0,
+        "winnerCount": 47,
+        "perPrize": 40200
+      },
+      "fourthAssign": {
+        "prize": 1214636,
+        "lastPrize": 0,
+        "winnerCount": 96,
+        "perPrize": 12652
+      },
+      "fifthAssign": {
+        "prize": 3882000,
+        "lastPrize": 0,
+        "winnerCount": 1941,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2685000,
+        "lastPrize": 0,
+        "winnerCount": 2685,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10839600,
+        "lastPrize": 0,
+        "winnerCount": 27099,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13570400,
+        "lastPrize": 0,
+        "winnerCount": 33926,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000003,
+      "lotteryDate": "2026-01-09T00:00:00",
+      "redeemableDate": "2026-04-13T00:00:00",
+      "drawNumberSize": [
+        1,
+        7,
+        13,
+        14,
+        34,
+        45,
+        8
+      ],
+      "drawNumberAppear": [
+        45,
+        1,
+        34,
+        7,
+        14,
+        13,
+        8
+      ],
+      "totalAmount": 121832180,
+      "sellAmount": 102376600,
+      "jackpotAssign": {
+        "prize": 21855866,
+        "lastPrize": 64501284,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1732477,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 577492
+      },
+      "thirdAssign": {
+        "prize": 1865744,
+        "lastPrize": 0,
+        "winnerCount": 32,
+        "perPrize": 58304
+      },
+      "fourthAssign": {
+        "prize": 1199407,
+        "lastPrize": 0,
+        "winnerCount": 93,
+        "perPrize": 12896
+      },
+      "fifthAssign": {
+        "prize": 3450000,
+        "lastPrize": 0,
+        "winnerCount": 1725,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2691000,
+        "lastPrize": 0,
+        "winnerCount": 2691,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11626400,
+        "lastPrize": 0,
+        "winnerCount": 29066,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12910000,
+        "lastPrize": 0,
+        "winnerCount": 32275,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000004,
+      "lotteryDate": "2026-01-13T00:00:00",
+      "redeemableDate": "2026-04-13T00:00:00",
+      "drawNumberSize": [
+        2,
+        10,
+        18,
+        19,
+        39,
+        49,
+        24
+      ],
+      "drawNumberAppear": [
+        19,
+        10,
+        2,
+        39,
+        49,
+        18,
+        24
+      ],
+      "totalAmount": 147636494,
+      "sellAmount": 109427400,
+      "jackpotAssign": {
+        "prize": 24316234,
+        "lastPrize": 86357150,
+        "winnerCount": 1,
+        "perPrize": 110673384
+      },
+      "secondAssign": {
+        "prize": 1927506,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 2075776,
+        "lastPrize": 0,
+        "winnerCount": 41,
+        "perPrize": 50628
+      },
+      "fourthAssign": {
+        "prize": 1334427,
+        "lastPrize": 0,
+        "winnerCount": 117,
+        "perPrize": 11405
+      },
+      "fifthAssign": {
+        "prize": 3702000,
+        "lastPrize": 0,
+        "winnerCount": 1851,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2831000,
+        "lastPrize": 0,
+        "winnerCount": 2831,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11305600,
+        "lastPrize": 0,
+        "winnerCount": 28264,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13786800,
+        "lastPrize": 0,
+        "winnerCount": 34467,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000005,
+      "lotteryDate": "2026-01-16T00:00:00",
+      "redeemableDate": "2026-04-20T00:00:00",
+      "drawNumberSize": [
+        9,
+        10,
+        21,
+        22,
+        25,
+        36,
+        20
+      ],
+      "drawNumberAppear": [
+        10,
+        25,
+        22,
+        36,
+        9,
+        21,
+        20
+      ],
+      "totalAmount": 59255770,
+      "sellAmount": 102371900,
+      "jackpotAssign": {
+        "prize": 18454808,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1462881,
+        "lastPrize": 1927506,
+        "winnerCount": 2,
+        "perPrize": 1695193
+      },
+      "thirdAssign": {
+        "prize": 1575410,
+        "lastPrize": 0,
+        "winnerCount": 49,
+        "perPrize": 32151
+      },
+      "fourthAssign": {
+        "prize": 1012763,
+        "lastPrize": 0,
+        "winnerCount": 93,
+        "perPrize": 10889
+      },
+      "fifthAssign": {
+        "prize": 4748000,
+        "lastPrize": 0,
+        "winnerCount": 2374,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2984000,
+        "lastPrize": 0,
+        "winnerCount": 2984,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11553600,
+        "lastPrize": 0,
+        "winnerCount": 28884,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15536800,
+        "lastPrize": 0,
+        "winnerCount": 38842,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000006,
+      "lotteryDate": "2026-01-20T00:00:00",
+      "redeemableDate": "2026-04-20T00:00:00",
+      "drawNumberSize": [
+        2,
+        7,
+        26,
+        41,
+        44,
+        45,
+        46
+      ],
+      "drawNumberAppear": [
+        26,
+        2,
+        44,
+        41,
+        7,
+        45,
+        46
+      ],
+      "totalAmount": 76806276,
+      "sellAmount": 104199050,
+      "jackpotAssign": {
+        "prize": 25524523,
+        "lastPrize": 18454808,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2023285,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 2178922,
+        "lastPrize": 0,
+        "winnerCount": 33,
+        "perPrize": 66027
+      },
+      "fourthAssign": {
+        "prize": 1400736,
+        "lastPrize": 0,
+        "winnerCount": 87,
+        "perPrize": 16100
+      },
+      "fifthAssign": {
+        "prize": 3480000,
+        "lastPrize": 0,
+        "winnerCount": 1740,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2140000,
+        "lastPrize": 0,
+        "winnerCount": 2140,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8842800,
+        "lastPrize": 0,
+        "winnerCount": 22107,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12761200,
+        "lastPrize": 0,
+        "winnerCount": 31903,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000007,
+      "lotteryDate": "2026-01-23T00:00:00",
+      "redeemableDate": "2026-04-27T00:00:00",
+      "drawNumberSize": [
+        21,
+        23,
+        32,
+        36,
+        39,
+        43,
+        12
+      ],
+      "drawNumberAppear": [
+        36,
+        32,
+        21,
+        23,
+        43,
+        39,
+        12
+      ],
+      "totalAmount": 103463320,
+      "sellAmount": 102608400,
+      "jackpotAssign": {
+        "prize": 22568781,
+        "lastPrize": 43979331,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1788988,
+        "lastPrize": 2023285,
+        "winnerCount": 2,
+        "perPrize": 1906136
+      },
+      "thirdAssign": {
+        "prize": 1926603,
+        "lastPrize": 0,
+        "winnerCount": 32,
+        "perPrize": 60206
+      },
+      "fourthAssign": {
+        "prize": 1238530,
+        "lastPrize": 0,
+        "winnerCount": 130,
+        "perPrize": 9527
+      },
+      "fifthAssign": {
+        "prize": 3518000,
+        "lastPrize": 0,
+        "winnerCount": 1759,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2761000,
+        "lastPrize": 0,
+        "winnerCount": 2761,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10892800,
+        "lastPrize": 0,
+        "winnerCount": 27232,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12766000,
+        "lastPrize": 0,
+        "winnerCount": 31915,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000008,
+      "lotteryDate": "2026-01-27T00:00:00",
+      "redeemableDate": "2026-04-27T00:00:00",
+      "drawNumberSize": [
+        4,
+        11,
+        24,
+        25,
+        29,
+        30,
+        8
+      ],
+      "drawNumberAppear": [
+        24,
+        4,
+        29,
+        25,
+        30,
+        11,
+        8
+      ],
+      "totalAmount": 126966484,
+      "sellAmount": 107889950,
+      "jackpotAssign": {
+        "prize": 18235465,
+        "lastPrize": 66548112,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1445494,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1445494
+      },
+      "thirdAssign": {
+        "prize": 1556686,
+        "lastPrize": 0,
+        "winnerCount": 33,
+        "perPrize": 47172
+      },
+      "fourthAssign": {
+        "prize": 1000726,
+        "lastPrize": 0,
+        "winnerCount": 187,
+        "perPrize": 5351
+      },
+      "fifthAssign": {
+        "prize": 4544000,
+        "lastPrize": 0,
+        "winnerCount": 2272,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3986000,
+        "lastPrize": 0,
+        "winnerCount": 3986,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 14444400,
+        "lastPrize": 0,
+        "winnerCount": 36111,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15205600,
+        "lastPrize": 0,
+        "winnerCount": 38014,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000009,
+      "lotteryDate": "2026-01-30T00:00:00",
+      "redeemableDate": "2026-05-04T00:00:00",
+      "drawNumberSize": [
+        9,
+        13,
+        27,
+        31,
+        32,
+        39,
+        19
+      ],
+      "drawNumberAppear": [
+        32,
+        39,
+        13,
+        31,
+        9,
+        27,
+        19
+      ],
+      "totalAmount": 148629765,
+      "sellAmount": 114011050,
+      "jackpotAssign": {
+        "prize": 24012542,
+        "lastPrize": 84783577,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1903433,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 2049851,
+        "lastPrize": 0,
+        "winnerCount": 45,
+        "perPrize": 45552
+      },
+      "fourthAssign": {
+        "prize": 1317761,
+        "lastPrize": 0,
+        "winnerCount": 100,
+        "perPrize": 13177
+      },
+      "fifthAssign": {
+        "prize": 4652000,
+        "lastPrize": 0,
+        "winnerCount": 2326,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3061000,
+        "lastPrize": 0,
+        "winnerCount": 3061,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11516800,
+        "lastPrize": 0,
+        "winnerCount": 28792,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15332800,
+        "lastPrize": 0,
+        "winnerCount": 38332,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000010,
+      "lotteryDate": "2026-02-03T00:00:00",
+      "redeemableDate": "2026-05-04T00:00:00",
+      "drawNumberSize": [
+        6,
+        14,
+        32,
+        33,
+        39,
+        43,
+        13
+      ],
+      "drawNumberAppear": [
+        6,
+        14,
+        33,
+        32,
+        43,
+        39,
+        13
+      ],
+      "totalAmount": 181612520,
+      "sellAmount": 126630300,
+      "jackpotAssign": {
+        "prize": 30611393,
+        "lastPrize": 108796119,
+        "winnerCount": 1,
+        "perPrize": 139407512
+      },
+      "secondAssign": {
+        "prize": 2426512,
+        "lastPrize": 1903433,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 2613167,
+        "lastPrize": 0,
+        "winnerCount": 45,
+        "perPrize": 58070
+      },
+      "fourthAssign": {
+        "prize": 1679893,
+        "lastPrize": 0,
+        "winnerCount": 109,
+        "perPrize": 15411
+      },
+      "fifthAssign": {
+        "prize": 3830000,
+        "lastPrize": 0,
+        "winnerCount": 1915,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2836000,
+        "lastPrize": 0,
+        "winnerCount": 2836,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11891200,
+        "lastPrize": 0,
+        "winnerCount": 29728,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15024800,
+        "lastPrize": 0,
+        "winnerCount": 37562,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000011,
+      "lotteryDate": "2026-02-06T00:00:00",
+      "redeemableDate": "2026-05-08T00:00:00",
+      "drawNumberSize": [
+        4,
+        12,
+        24,
+        25,
+        39,
+        48,
+        9
+      ],
+      "drawNumberAppear": [
+        4,
+        12,
+        39,
+        48,
+        24,
+        25,
+        9
+      ],
+      "totalAmount": 71095245,
+      "sellAmount": 119223750,
+      "jackpotAssign": {
+        "prize": 24760474,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1962720,
+        "lastPrize": 4329945,
+        "winnerCount": 2,
+        "perPrize": 3146332
+      },
+      "thirdAssign": {
+        "prize": 2113699,
+        "lastPrize": 0,
+        "winnerCount": 42,
+        "perPrize": 50326
+      },
+      "fourthAssign": {
+        "prize": 1358806,
+        "lastPrize": 0,
+        "winnerCount": 108,
+        "perPrize": 12581
+      },
+      "fifthAssign": {
+        "prize": 4278000,
+        "lastPrize": 0,
+        "winnerCount": 2139,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3336000,
+        "lastPrize": 0,
+        "winnerCount": 3336,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 13238000,
+        "lastPrize": 0,
+        "winnerCount": 33095,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15717600,
+        "lastPrize": 0,
+        "winnerCount": 39294,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000012,
+      "lotteryDate": "2026-02-10T00:00:00",
+      "redeemableDate": "2026-05-11T00:00:00",
+      "drawNumberSize": [
+        6,
+        16,
+        20,
+        21,
+        24,
+        35,
+        13
+      ],
+      "drawNumberAppear": [
+        6,
+        20,
+        35,
+        21,
+        24,
+        16,
+        13
+      ],
+      "totalAmount": 97601578,
+      "sellAmount": 130073400,
+      "jackpotAssign": {
+        "prize": 28938213,
+        "lastPrize": 24760474,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2293882,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 2293882
+      },
+      "thirdAssign": {
+        "prize": 2470335,
+        "lastPrize": 0,
+        "winnerCount": 43,
+        "perPrize": 57449
+      },
+      "fourthAssign": {
+        "prize": 1588072,
+        "lastPrize": 0,
+        "winnerCount": 95,
+        "perPrize": 16716
+      },
+      "fifthAssign": {
+        "prize": 4696000,
+        "lastPrize": 0,
+        "winnerCount": 2348,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3115000,
+        "lastPrize": 0,
+        "winnerCount": 3115,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 12814400,
+        "lastPrize": 0,
+        "winnerCount": 32036,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 16925200,
+        "lastPrize": 0,
+        "winnerCount": 42313,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000013,
+      "lotteryDate": "2026-02-12T00:00:00",
+      "redeemableDate": "2026-05-12T00:00:00",
+      "drawNumberSize": [
+        1,
+        3,
+        8,
+        15,
+        20,
+        48,
+        46
+      ],
+      "drawNumberAppear": [
+        48,
+        1,
+        15,
+        3,
+        20,
+        8,
+        46
+      ],
+      "totalAmount": 163266467,
+      "sellAmount": 195656750,
+      "jackpotAssign": {
+        "prize": 42180455,
+        "lastPrize": 53698687,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3343572,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3343572
+      },
+      "thirdAssign": {
+        "prize": 3600770,
+        "lastPrize": 0,
+        "winnerCount": 87,
+        "perPrize": 41388
+      },
+      "fourthAssign": {
+        "prize": 2314781,
+        "lastPrize": 0,
+        "winnerCount": 162,
+        "perPrize": 14288
+      },
+      "fifthAssign": {
+        "prize": 8208000,
+        "lastPrize": 0,
+        "winnerCount": 4104,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4425000,
+        "lastPrize": 0,
+        "winnerCount": 4425,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 17660400,
+        "lastPrize": 0,
+        "winnerCount": 44151,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 27834800,
+        "lastPrize": 0,
+        "winnerCount": 69587,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000014,
+      "lotteryDate": "2026-02-13T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        9,
+        20,
+        25,
+        35,
+        39,
+        48,
+        47
+      ],
+      "drawNumberAppear": [
+        20,
+        35,
+        48,
+        39,
+        9,
+        25,
+        47
+      ],
+      "totalAmount": 212129738,
+      "sellAmount": 207590350,
+      "jackpotAssign": {
+        "prize": 49541608,
+        "lastPrize": 95879142,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3927078,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 4229161,
+        "lastPrize": 0,
+        "winnerCount": 68,
+        "perPrize": 62193
+      },
+      "fourthAssign": {
+        "prize": 2718746,
+        "lastPrize": 0,
+        "winnerCount": 151,
+        "perPrize": 18004
+      },
+      "fifthAssign": {
+        "prize": 7216000,
+        "lastPrize": 0,
+        "winnerCount": 3608,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4338000,
+        "lastPrize": 0,
+        "winnerCount": 4338,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 17869600,
+        "lastPrize": 0,
+        "winnerCount": 44674,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 26410400,
+        "lastPrize": 0,
+        "winnerCount": 66026,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000015,
+      "lotteryDate": "2026-02-14T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        1,
+        11,
+        22,
+        35,
+        36,
+        40,
+        28
+      ],
+      "drawNumberAppear": [
+        11,
+        1,
+        22,
+        40,
+        36,
+        35,
+        28
+      ],
+      "totalAmount": 261936220,
+      "sellAmount": 201050700,
+      "jackpotAssign": {
+        "prize": 45347305,
+        "lastPrize": 145420750,
+        "winnerCount": 1,
+        "perPrize": 190768055
+      },
+      "secondAssign": {
+        "prize": 3594603,
+        "lastPrize": 3927078,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 3871111,
+        "lastPrize": 0,
+        "winnerCount": 53,
+        "perPrize": 73039
+      },
+      "fourthAssign": {
+        "prize": 2488571,
+        "lastPrize": 0,
+        "winnerCount": 171,
+        "perPrize": 14553
+      },
+      "fifthAssign": {
+        "prize": 6838000,
+        "lastPrize": 0,
+        "winnerCount": 3419,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 5040000,
+        "lastPrize": 0,
+        "winnerCount": 5040,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 20233600,
+        "lastPrize": 0,
+        "winnerCount": 50584,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 25175200,
+        "lastPrize": 0,
+        "winnerCount": 62938,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000016,
+      "lotteryDate": "2026-02-15T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        3,
+        6,
+        11,
+        18,
+        25,
+        28,
+        35
+      ],
+      "drawNumberAppear": [
+        11,
+        6,
+        28,
+        3,
+        18,
+        25,
+        35
+      ],
+      "totalAmount": 129349625,
+      "sellAmount": 217549900,
+      "jackpotAssign": {
+        "prize": 42036926,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3332195,
+        "lastPrize": 7521681,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 3588518,
+        "lastPrize": 0,
+        "winnerCount": 138,
+        "perPrize": 26003
+      },
+      "fourthAssign": {
+        "prize": 2306904,
+        "lastPrize": 0,
+        "winnerCount": 214,
+        "perPrize": 10779
+      },
+      "fifthAssign": {
+        "prize": 10204000,
+        "lastPrize": 0,
+        "winnerCount": 5102,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 5865000,
+        "lastPrize": 0,
+        "winnerCount": 5865,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 21593200,
+        "lastPrize": 0,
+        "winnerCount": 53983,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 32901200,
+        "lastPrize": 0,
+        "winnerCount": 82253,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000017,
+      "lotteryDate": "2026-02-16T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        11,
+        16,
+        18,
+        27,
+        38,
+        46,
+        43
+      ],
+      "drawNumberAppear": [
+        11,
+        18,
+        46,
+        27,
+        16,
+        38,
+        43
+      ],
+      "totalAmount": 218016490,
+      "sellAmount": 294867300,
+      "jackpotAssign": {
+        "prize": 67955440,
+        "lastPrize": 42036926,
+        "winnerCount": 1,
+        "perPrize": 109992366
+      },
+      "secondAssign": {
+        "prize": 5386711,
+        "lastPrize": 10853876,
+        "winnerCount": 1,
+        "perPrize": 16240587
+      },
+      "thirdAssign": {
+        "prize": 5801074,
+        "lastPrize": 0,
+        "winnerCount": 81,
+        "perPrize": 71618
+      },
+      "fourthAssign": {
+        "prize": 3729261,
+        "lastPrize": 0,
+        "winnerCount": 241,
+        "perPrize": 15474
+      },
+      "fifthAssign": {
+        "prize": 10710000,
+        "lastPrize": 0,
+        "winnerCount": 5355,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 6600000,
+        "lastPrize": 0,
+        "winnerCount": 6600,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 26228000,
+        "lastPrize": 0,
+        "winnerCount": 65570,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 38715200,
+        "lastPrize": 0,
+        "winnerCount": 96788,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000018,
+      "lotteryDate": "2026-02-17T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        6,
+        12,
+        24,
+        26,
+        37,
+        46,
+        36
+      ],
+      "drawNumberAppear": [
+        12,
+        24,
+        6,
+        46,
+        26,
+        37,
+        36
+      ],
+      "totalAmount": 215831939,
+      "sellAmount": 331156850,
+      "jackpotAssign": {
+        "prize": 100000000,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 100000000
+      },
+      "secondAssign": {
+        "prize": 5518333,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 5942820,
+        "lastPrize": 0,
+        "winnerCount": 123,
+        "perPrize": 48315
+      },
+      "fourthAssign": {
+        "prize": 3820384,
+        "lastPrize": 0,
+        "winnerCount": 320,
+        "perPrize": 11938
+      },
+      "fifthAssign": {
+        "prize": 13038000,
+        "lastPrize": 0,
+        "winnerCount": 6519,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 8906000,
+        "lastPrize": 0,
+        "winnerCount": 8906,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 32487600,
+        "lastPrize": 0,
+        "winnerCount": 81219,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 46118800,
+        "lastPrize": 0,
+        "winnerCount": 115297,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000019,
+      "lotteryDate": "2026-02-18T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        16,
+        35,
+        36,
+        37,
+        39,
+        49,
+        45
+      ],
+      "drawNumberAppear": [
+        36,
+        49,
+        37,
+        16,
+        39,
+        35,
+        45
+      ],
+      "totalAmount": 176826953,
+      "sellAmount": 305908250,
+      "jackpotAssign": {
+        "prize": 74289556,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 5888806,
+        "lastPrize": 5518333,
+        "winnerCount": 5,
+        "perPrize": 2281427
+      },
+      "thirdAssign": {
+        "prize": 6341791,
+        "lastPrize": 0,
+        "winnerCount": 112,
+        "perPrize": 56623
+      },
+      "fourthAssign": {
+        "prize": 4076865,
+        "lastPrize": 0,
+        "winnerCount": 209,
+        "perPrize": 19506
+      },
+      "fifthAssign": {
+        "prize": 10334000,
+        "lastPrize": 0,
+        "winnerCount": 5167,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 6552000,
+        "lastPrize": 0,
+        "winnerCount": 6552,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 26821600,
+        "lastPrize": 0,
+        "winnerCount": 67054,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 37004000,
+        "lastPrize": 0,
+        "winnerCount": 92510,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000020,
+      "lotteryDate": "2026-02-19T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        20,
+        28,
+        29,
+        31,
+        35,
+        41,
+        6
+      ],
+      "drawNumberAppear": [
+        31,
+        28,
+        41,
+        20,
+        35,
+        29,
+        6
+      ],
+      "totalAmount": 236160524,
+      "sellAmount": 289055300,
+      "jackpotAssign": {
+        "prize": 66831941,
+        "lastPrize": 74289556,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 5297653,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 5297653
+      },
+      "thirdAssign": {
+        "prize": 5705165,
+        "lastPrize": 0,
+        "winnerCount": 81,
+        "perPrize": 70434
+      },
+      "fourthAssign": {
+        "prize": 3667606,
+        "lastPrize": 0,
+        "winnerCount": 245,
+        "perPrize": 14969
+      },
+      "fifthAssign": {
+        "prize": 9316000,
+        "lastPrize": 0,
+        "winnerCount": 4658,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 6981000,
+        "lastPrize": 0,
+        "winnerCount": 6981,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 29019200,
+        "lastPrize": 0,
+        "winnerCount": 72548,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 35052400,
+        "lastPrize": 0,
+        "winnerCount": 87631,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000021,
+      "lotteryDate": "2026-02-20T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        13,
+        15,
+        18,
+        24,
+        33,
+        49,
+        10
+      ],
+      "drawNumberAppear": [
+        15,
+        18,
+        24,
+        49,
+        13,
+        33,
+        10
+      ],
+      "totalAmount": 309543205,
+      "sellAmount": 300753050,
+      "jackpotAssign": {
+        "prize": 66969488,
+        "lastPrize": 141121497,
+        "winnerCount": 1,
+        "perPrize": 208090985
+      },
+      "secondAssign": {
+        "prize": 5308557,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 5308557
+      },
+      "thirdAssign": {
+        "prize": 5716907,
+        "lastPrize": 0,
+        "winnerCount": 115,
+        "perPrize": 49712
+      },
+      "fourthAssign": {
+        "prize": 3675154,
+        "lastPrize": 0,
+        "winnerCount": 272,
+        "perPrize": 13511
+      },
+      "fifthAssign": {
+        "prize": 10818000,
+        "lastPrize": 0,
+        "winnerCount": 5409,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 7350000,
+        "lastPrize": 0,
+        "winnerCount": 7350,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 30116400,
+        "lastPrize": 0,
+        "winnerCount": 75291,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 38467200,
+        "lastPrize": 0,
+        "winnerCount": 96168,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000022,
+      "lotteryDate": "2026-02-21T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        12,
+        13,
+        17,
+        27,
+        41,
+        48,
+        46
+      ],
+      "drawNumberAppear": [
+        17,
+        13,
+        41,
+        48,
+        27,
+        12,
+        46
+      ],
+      "totalAmount": 186579803,
+      "sellAmount": 269517450,
+      "jackpotAssign": {
+        "prize": 100000000,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 100000000
+      },
+      "secondAssign": {
+        "prize": 5100912,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 5493290,
+        "lastPrize": 0,
+        "winnerCount": 80,
+        "perPrize": 68666
+      },
+      "fourthAssign": {
+        "prize": 3531400,
+        "lastPrize": 0,
+        "winnerCount": 165,
+        "perPrize": 21402
+      },
+      "fifthAssign": {
+        "prize": 8828000,
+        "lastPrize": 0,
+        "winnerCount": 4414,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 5789000,
+        "lastPrize": 0,
+        "winnerCount": 5789,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 23946800,
+        "lastPrize": 0,
+        "winnerCount": 59867,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 33890400,
+        "lastPrize": 0,
+        "winnerCount": 84726,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000023,
+      "lotteryDate": "2026-02-22T00:00:00",
+      "redeemableDate": "2026-05-22T00:00:00",
+      "drawNumberSize": [
+        5,
+        7,
+        17,
+        22,
+        24,
+        47,
+        20
+      ],
+      "drawNumberAppear": [
+        5,
+        22,
+        24,
+        17,
+        7,
+        47,
+        20
+      ],
+      "totalAmount": 187936824,
+      "sellAmount": 234695750,
+      "jackpotAssign": {
+        "prize": 100000000,
+        "lastPrize": 0,
         "winnerCount": 2,
         "perPrize": 50000000
       },
       "secondAssign": {
-        "prize": 1375333,
-        "lastPrize": 6900376,
-        "winnerCount": 0,
-        "perPrize": 0
+        "prize": 3851940,
+        "lastPrize": 5100912,
+        "winnerCount": 2,
+        "perPrize": 4476426
       },
       "thirdAssign": {
-        "prize": 1481128,
+        "prize": 4148243,
         "lastPrize": 0,
-        "winnerCount": 42,
-        "perPrize": 35264
+        "winnerCount": 140,
+        "perPrize": 29630
       },
       "fourthAssign": {
-        "prize": 952154,
+        "prize": 2666727,
         "lastPrize": 0,
-        "winnerCount": 82,
-        "perPrize": 11611
+        "winnerCount": 237,
+        "perPrize": 11252
       },
       "fifthAssign": {
-        "prize": 4492000,
+        "prize": 9596000,
         "lastPrize": 0,
-        "winnerCount": 2246,
+        "winnerCount": 4798,
         "perPrize": 2000
       },
       "sixthAssign": {
-        "prize": 2330000,
+        "prize": 6035000,
         "lastPrize": 0,
-        "winnerCount": 2330,
+        "winnerCount": 6035,
         "perPrize": 1000
       },
       "seventhAssign": {
-        "prize": 9113600,
+        "prize": 23370800,
         "lastPrize": 0,
-        "winnerCount": 22784,
+        "winnerCount": 58427,
         "perPrize": 400
       },
       "normalAssign": {
-        "prize": 14884000,
+        "prize": 33167200,
         "lastPrize": 0,
-        "winnerCount": 37210,
+        "winnerCount": 82918,
         "perPrize": 400
       }
     },
     {
-      "period": 115000106,
-      "lotteryDate": "2026-11-17T00:00:00",
-      "redeemableDate": "2027-02-17T00:00:00",
+      "period": 115000024,
+      "lotteryDate": "2026-02-23T00:00:00",
+      "redeemableDate": "2026-05-25T00:00:00",
       "drawNumberSize": [
-        3,
-        14,
-        15,
+        6,
+        10,
         23,
-        43,
+        27,
+        47,
         48,
-        18
+        30
       ],
       "drawNumberAppear": [
-        3,
-        15,
-        14,
-        48,
+        47,
+        27,
+        6,
         23,
-        43,
-        18
+        10,
+        48,
+        30
       ],
-      "totalAmount": 98562874,
-      "sellAmount": 94944900,
+      "totalAmount": 112864724,
+      "sellAmount": 201544150,
       "jackpotAssign": {
-        "prize": 22052542,
-        "lastPrize": 40241421,
+        "prize": 45506493,
+        "lastPrize": 0,
         "winnerCount": 0,
         "perPrize": 0
       },
       "secondAssign": {
-        "prize": 1748067,
-        "lastPrize": 5152309,
-        "winnerCount": 0,
-        "perPrize": 0
+        "prize": 3607222,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3607222
       },
       "thirdAssign": {
-        "prize": 1882534,
+        "prize": 3884700,
         "lastPrize": 0,
-        "winnerCount": 21,
-        "perPrize": 89644
+        "winnerCount": 67,
+        "perPrize": 57980
       },
       "fourthAssign": {
-        "prize": 1210200,
+        "prize": 2497307,
         "lastPrize": 0,
-        "winnerCount": 93,
-        "perPrize": 13012
+        "winnerCount": 192,
+        "perPrize": 13006
       },
       "fifthAssign": {
-        "prize": 3068000,
+        "prize": 7104000,
         "lastPrize": 0,
-        "winnerCount": 1534,
+        "winnerCount": 3552,
         "perPrize": 2000
       },
       "sixthAssign": {
-        "prize": 2167000,
+        "prize": 4723000,
         "lastPrize": 0,
-        "winnerCount": 2167,
+        "winnerCount": 4723,
         "perPrize": 1000
       },
       "seventhAssign": {
-        "prize": 9080400,
+        "prize": 19370400,
         "lastPrize": 0,
-        "winnerCount": 22701,
+        "winnerCount": 48426,
         "perPrize": 400
       },
       "normalAssign": {
-        "prize": 11960400,
+        "prize": 26171600,
         "lastPrize": 0,
-        "winnerCount": 29901,
+        "winnerCount": 65429,
         "perPrize": 400
       }
     },
     {
-      "period": 115000105,
-      "lotteryDate": "2026-11-13T00:00:00",
-      "redeemableDate": "2027-02-15T00:00:00",
+      "period": 115000025,
+      "lotteryDate": "2026-02-24T00:00:00",
+      "redeemableDate": "2026-05-25T00:00:00",
       "drawNumberSize": [
-        7,
-        8,
-        13,
-        15,
-        25,
-        46,
-        43
+        12,
+        19,
+        22,
+        27,
+        28,
+        31,
+        45
       ],
       "drawNumberAppear": [
-        8,
-        15,
-        46,
-        7,
-        25,
-        13,
-        43
+        19,
+        28,
+        12,
+        31,
+        22,
+        27,
+        45
       ],
-      "totalAmount": 78165731,
-      "sellAmount": 93987400,
+      "totalAmount": 167216011,
+      "sellAmount": 199606100,
       "jackpotAssign": {
-        "prize": 18402230,
-        "lastPrize": 21839191,
+        "prize": 54493507,
+        "lastPrize": 45506493,
+        "winnerCount": 1,
+        "perPrize": 100000000
+      },
+      "secondAssign": {
+        "prize": 3532465,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3532465
+      },
+      "thirdAssign": {
+        "prize": 3804193,
+        "lastPrize": 0,
+        "winnerCount": 83,
+        "perPrize": 45833
+      },
+      "fourthAssign": {
+        "prize": 2445552,
+        "lastPrize": 0,
+        "winnerCount": 188,
+        "perPrize": 13008
+      },
+      "fifthAssign": {
+        "prize": 7498000,
+        "lastPrize": 0,
+        "winnerCount": 3749,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4667000,
+        "lastPrize": 0,
+        "winnerCount": 4667,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 18149600,
+        "lastPrize": 0,
+        "winnerCount": 45374,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 27119200,
+        "lastPrize": 0,
+        "winnerCount": 67798,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000026,
+      "lotteryDate": "2026-02-25T00:00:00",
+      "redeemableDate": "2026-05-25T00:00:00",
+      "drawNumberSize": [
+        7,
+        15,
+        22,
+        38,
+        45,
+        49,
+        31
+      ],
+      "drawNumberAppear": [
+        45,
+        22,
+        49,
+        15,
+        7,
+        38,
+        31
+      ],
+      "totalAmount": 99700076,
+      "sellAmount": 178035850,
+      "jackpotAssign": {
+        "prize": 41844990,
+        "lastPrize": 0,
         "winnerCount": 0,
         "perPrize": 0
       },
       "secondAssign": {
-        "prize": 1458713,
-        "lastPrize": 3693596,
+        "prize": 3316980,
+        "lastPrize": 0,
+        "winnerCount": 6,
+        "perPrize": 552830
+      },
+      "thirdAssign": {
+        "prize": 3572133,
+        "lastPrize": 0,
+        "winnerCount": 67,
+        "perPrize": 53315
+      },
+      "fourthAssign": {
+        "prize": 2296371,
+        "lastPrize": 0,
+        "winnerCount": 224,
+        "perPrize": 10251
+      },
+      "fifthAssign": {
+        "prize": 6190000,
+        "lastPrize": 0,
+        "winnerCount": 3095,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4222000,
+        "lastPrize": 0,
+        "winnerCount": 4222,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 16298800,
+        "lastPrize": 0,
+        "winnerCount": 40747,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 21958800,
+        "lastPrize": 0,
+        "winnerCount": 54897,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000027,
+      "lotteryDate": "2026-02-26T00:00:00",
+      "redeemableDate": "2026-06-01T00:00:00",
+      "drawNumberSize": [
+        1,
+        16,
+        22,
+        24,
+        47,
+        48,
+        7
+      ],
+      "drawNumberAppear": [
+        22,
+        1,
+        16,
+        24,
+        48,
+        47,
+        7
+      ],
+      "totalAmount": 138830830,
+      "sellAmount": 173189000,
+      "jackpotAssign": {
+        "prize": 40204304,
+        "lastPrize": 41844990,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3186926,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3186926
+      },
+      "thirdAssign": {
+        "prize": 3432074,
+        "lastPrize": 0,
+        "winnerCount": 80,
+        "perPrize": 42900
+      },
+      "fourthAssign": {
+        "prize": 2206333,
+        "lastPrize": 0,
+        "winnerCount": 153,
+        "perPrize": 14420
+      },
+      "fifthAssign": {
+        "prize": 5428000,
+        "lastPrize": 0,
+        "winnerCount": 2714,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4191000,
+        "lastPrize": 0,
+        "winnerCount": 4191,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 17401200,
+        "lastPrize": 0,
+        "winnerCount": 43503,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 20936000,
+        "lastPrize": 0,
+        "winnerCount": 52340,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000028,
+      "lotteryDate": "2026-02-27T00:00:00",
+      "redeemableDate": "2026-06-01T00:00:00",
+      "drawNumberSize": [
+        14,
+        18,
+        19,
+        34,
+        45,
+        47,
+        48
+      ],
+      "drawNumberAppear": [
+        19,
+        45,
+        14,
+        34,
+        18,
+        47,
+        48
+      ],
+      "totalAmount": 182446206,
+      "sellAmount": 179280200,
+      "jackpotAssign": {
+        "prize": 45022847,
+        "lastPrize": 82049294,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3568884,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3568884
+      },
+      "thirdAssign": {
+        "prize": 3843413,
+        "lastPrize": 0,
+        "winnerCount": 52,
+        "perPrize": 73911
+      },
+      "fourthAssign": {
+        "prize": 2470766,
+        "lastPrize": 0,
+        "winnerCount": 118,
+        "perPrize": 20938
+      },
+      "fifthAssign": {
+        "prize": 5632000,
+        "lastPrize": 0,
+        "winnerCount": 2816,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3547000,
+        "lastPrize": 0,
+        "winnerCount": 3547,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 15064000,
+        "lastPrize": 0,
+        "winnerCount": 37660,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 21248000,
+        "lastPrize": 0,
+        "winnerCount": 53120,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000029,
+      "lotteryDate": "2026-02-28T00:00:00",
+      "redeemableDate": "2026-06-01T00:00:00",
+      "drawNumberSize": [
+        17,
+        23,
+        30,
+        37,
+        39,
+        49,
+        43
+      ],
+      "drawNumberAppear": [
+        30,
+        37,
+        17,
+        49,
+        39,
+        23,
+        43
+      ],
+      "totalAmount": 218526189,
+      "sellAmount": 163310800,
+      "jackpotAssign": {
+        "prize": 38200231,
+        "lastPrize": 127072141,
+        "winnerCount": 1,
+        "perPrize": 165272372
+      },
+      "secondAssign": {
+        "prize": 3028067,
+        "lastPrize": 0,
         "winnerCount": 0,
         "perPrize": 0
       },
       "thirdAssign": {
-        "prize": 1570922,
+        "prize": 3260995,
         "lastPrize": 0,
-        "winnerCount": 45,
-        "perPrize": 34909
+        "winnerCount": 55,
+        "perPrize": 59290
       },
       "fourthAssign": {
-        "prize": 1009878,
+        "prize": 2096354,
+        "lastPrize": 0,
+        "winnerCount": 134,
+        "perPrize": 15644
+      },
+      "fifthAssign": {
+        "prize": 5498000,
+        "lastPrize": 0,
+        "winnerCount": 2749,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3678000,
+        "lastPrize": 0,
+        "winnerCount": 3678,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 15078400,
+        "lastPrize": 0,
+        "winnerCount": 37696,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 20614000,
+        "lastPrize": 0,
+        "winnerCount": 51535,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000030,
+      "lotteryDate": "2026-03-01T00:00:00",
+      "redeemableDate": "2026-06-01T00:00:00",
+      "drawNumberSize": [
+        4,
+        7,
+        34,
+        40,
+        44,
+        49,
+        37
+      ],
+      "drawNumberAppear": [
+        7,
+        4,
+        34,
+        40,
+        44,
+        49,
+        37
+      ],
+      "totalAmount": 89281871,
+      "sellAmount": 154024650,
+      "jackpotAssign": {
+        "prize": 37362647,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2961673,
+        "lastPrize": 3028067,
+        "winnerCount": 1,
+        "perPrize": 5989740
+      },
+      "thirdAssign": {
+        "prize": 3189494,
+        "lastPrize": 0,
+        "winnerCount": 30,
+        "perPrize": 106316
+      },
+      "fourthAssign": {
+        "prize": 2050389,
+        "lastPrize": 0,
+        "winnerCount": 103,
+        "perPrize": 19906
+      },
+      "fifthAssign": {
+        "prize": 5150000,
+        "lastPrize": 0,
+        "winnerCount": 2575,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3282000,
+        "lastPrize": 0,
+        "winnerCount": 3282,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 13710400,
+        "lastPrize": 0,
+        "winnerCount": 34276,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 18547200,
+        "lastPrize": 0,
+        "winnerCount": 46368,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000031,
+      "lotteryDate": "2026-03-02T00:00:00",
+      "redeemableDate": "2026-06-02T00:00:00",
+      "drawNumberSize": [
+        19,
+        25,
+        27,
+        28,
+        33,
+        39,
+        37
+      ],
+      "drawNumberAppear": [
+        39,
+        19,
+        33,
+        28,
+        25,
+        27,
+        37
+      ],
+      "totalAmount": 129314087,
+      "sellAmount": 164199000,
+      "jackpotAssign": {
+        "prize": 35332848,
+        "lastPrize": 37362647,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2800774,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 2800774
+      },
+      "thirdAssign": {
+        "prize": 3016218,
+        "lastPrize": 0,
+        "winnerCount": 60,
+        "perPrize": 50270
+      },
+      "fourthAssign": {
+        "prize": 1938997,
+        "lastPrize": 0,
+        "winnerCount": 148,
+        "perPrize": 13101
+      },
+      "fifthAssign": {
+        "prize": 6252000,
+        "lastPrize": 0,
+        "winnerCount": 3126,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4193000,
+        "lastPrize": 0,
+        "winnerCount": 4193,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 15891600,
+        "lastPrize": 0,
+        "winnerCount": 39729,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 22526000,
+        "lastPrize": 0,
+        "winnerCount": 56315,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000032,
+      "lotteryDate": "2026-03-03T00:00:00",
+      "redeemableDate": "2026-06-03T00:00:00",
+      "drawNumberSize": [
+        5,
+        26,
+        27,
+        35,
+        45,
+        46,
+        37
+      ],
+      "drawNumberAppear": [
+        26,
+        35,
+        46,
+        27,
+        5,
+        45,
+        37
+      ],
+      "totalAmount": 194353927,
+      "sellAmount": 217247200,
+      "jackpotAssign": {
+        "prize": 50404606,
+        "lastPrize": 72695495,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3995487,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3995487
+      },
+      "thirdAssign": {
+        "prize": 4302832,
         "lastPrize": 0,
         "winnerCount": 84,
-        "perPrize": 12022
+        "perPrize": 51224
+      },
+      "fourthAssign": {
+        "prize": 2766106,
+        "lastPrize": 0,
+        "winnerCount": 200,
+        "perPrize": 13830
       },
       "fifthAssign": {
-        "prize": 4250000,
+        "prize": 7208000,
         "lastPrize": 0,
-        "winnerCount": 2125,
+        "winnerCount": 3604,
         "perPrize": 2000
       },
       "sixthAssign": {
-        "prize": 2368000,
+        "prize": 4841000,
         "lastPrize": 0,
-        "winnerCount": 2368,
+        "winnerCount": 4841,
         "perPrize": 1000
       },
       "seventhAssign": {
-        "prize": 9076400,
+        "prize": 20549600,
         "lastPrize": 0,
-        "winnerCount": 22691,
+        "winnerCount": 51374,
         "perPrize": 400
       },
       "normalAssign": {
-        "prize": 14496800,
+        "prize": 27590800,
         "lastPrize": 0,
-        "winnerCount": 36242,
+        "winnerCount": 68977,
         "perPrize": 400
       }
     },
     {
-      "period": 115000104,
-      "lotteryDate": "2026-11-10T00:00:00",
-      "redeemableDate": "2027-02-11T00:00:00",
+      "period": 115000033,
+      "lotteryDate": "2026-03-06T00:00:00",
+      "redeemableDate": "2026-06-08T00:00:00",
       "drawNumberSize": [
+        9,
         11,
+        12,
+        14,
         23,
-        30,
-        32,
-        40,
-        41,
-        28
+        25,
+        42
       ],
       "drawNumberAppear": [
         23,
-        41,
-        40,
-        30,
-        32,
+        9,
+        12,
         11,
-        28
+        14,
+        25,
+        42
       ],
-      "totalAmount": 54986601,
-      "sellAmount": 94686000,
+      "totalAmount": 194338289,
+      "sellAmount": 127211050,
       "jackpotAssign": {
-        "prize": 21839191,
+        "prize": 23378354,
+        "lastPrize": 123100101,
+        "winnerCount": 3,
+        "perPrize": 48826151
+      },
+      "secondAssign": {
+        "prize": 1853162,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 617720
+      },
+      "thirdAssign": {
+        "prize": 1995713,
+        "lastPrize": 0,
+        "winnerCount": 67,
+        "perPrize": 29786
+      },
+      "fourthAssign": {
+        "prize": 1282958,
+        "lastPrize": 0,
+        "winnerCount": 140,
+        "perPrize": 9163
+      },
+      "fifthAssign": {
+        "prize": 6242000,
+        "lastPrize": 0,
+        "winnerCount": 3121,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3282000,
+        "lastPrize": 0,
+        "winnerCount": 3282,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 12752800,
+        "lastPrize": 0,
+        "winnerCount": 31882,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 20451200,
+        "lastPrize": 0,
+        "winnerCount": 51128,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000034,
+      "lotteryDate": "2026-03-10T00:00:00",
+      "redeemableDate": "2026-06-10T00:00:00",
+      "drawNumberSize": [
+        5,
+        11,
+        29,
+        37,
+        43,
+        47,
+        10
+      ],
+      "drawNumberAppear": [
+        47,
+        43,
+        29,
+        11,
+        5,
+        37,
+        10
+      ],
+      "totalAmount": 136497110,
+      "sellAmount": 109041050,
+      "jackpotAssign": {
+        "prize": 100000000,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 100000000
+      },
+      "secondAssign": {
+        "prize": 1947295,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1947295
+      },
+      "thirdAssign": {
+        "prize": 2097087,
+        "lastPrize": 0,
+        "winnerCount": 36,
+        "perPrize": 58252
+      },
+      "fourthAssign": {
+        "prize": 1348127,
+        "lastPrize": 0,
+        "winnerCount": 110,
+        "perPrize": 12255
+      },
+      "fifthAssign": {
+        "prize": 3526000,
+        "lastPrize": 0,
+        "winnerCount": 1763,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2687000,
+        "lastPrize": 0,
+        "winnerCount": 2687,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11532400,
+        "lastPrize": 0,
+        "winnerCount": 28831,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13359200,
+        "lastPrize": 0,
+        "winnerCount": 33398,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000035,
+      "lotteryDate": "2026-03-13T00:00:00",
+      "redeemableDate": "2026-06-15T00:00:00",
+      "drawNumberSize": [
+        5,
+        12,
+        13,
+        38,
+        47,
+        48,
+        3
+      ],
+      "drawNumberAppear": [
+        38,
+        47,
+        5,
+        48,
+        12,
+        13,
+        3
+      ],
+      "totalAmount": 59163412,
+      "sellAmount": 105648950,
+      "jackpotAssign": {
+        "prize": 22980017,
         "lastPrize": 0,
         "winnerCount": 0,
         "perPrize": 0
       },
       "secondAssign": {
-        "prize": 1731155,
-        "lastPrize": 1962441,
+        "prize": 1821586,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 607195
+      },
+      "thirdAssign": {
+        "prize": 1961708,
+        "lastPrize": 0,
+        "winnerCount": 43,
+        "perPrize": 45621
+      },
+      "fourthAssign": {
+        "prize": 1261098,
+        "lastPrize": 0,
+        "winnerCount": 75,
+        "perPrize": 16814
+      },
+      "fifthAssign": {
+        "prize": 3612000,
+        "lastPrize": 0,
+        "winnerCount": 1806,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2651000,
+        "lastPrize": 0,
+        "winnerCount": 2651,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11518800,
+        "lastPrize": 0,
+        "winnerCount": 28797,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13357200,
+        "lastPrize": 0,
+        "winnerCount": 33393,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000036,
+      "lotteryDate": "2026-03-17T00:00:00",
+      "redeemableDate": "2026-06-17T00:00:00",
+      "drawNumberSize": [
+        2,
+        6,
+        10,
+        22,
+        40,
+        45,
+        17
+      ],
+      "drawNumberAppear": [
+        10,
+        22,
+        40,
+        45,
+        2,
+        6,
+        17
+      ],
+      "totalAmount": 137413787,
+      "sellAmount": 107030900,
+      "jackpotAssign": {
+        "prize": 77019983,
+        "lastPrize": 22980017,
+        "winnerCount": 1,
+        "perPrize": 100000000
+      },
+      "secondAssign": {
+        "prize": 1785400,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1785400
+      },
+      "thirdAssign": {
+        "prize": 1922739,
+        "lastPrize": 0,
+        "winnerCount": 41,
+        "perPrize": 46896
+      },
+      "fourthAssign": {
+        "prize": 1236046,
+        "lastPrize": 0,
+        "winnerCount": 120,
+        "perPrize": 10300
+      },
+      "fifthAssign": {
+        "prize": 3822000,
+        "lastPrize": 0,
+        "winnerCount": 1911,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2768000,
+        "lastPrize": 0,
+        "winnerCount": 2768,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11444800,
+        "lastPrize": 0,
+        "winnerCount": 28612,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14434800,
+        "lastPrize": 0,
+        "winnerCount": 36087,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000037,
+      "lotteryDate": "2026-03-20T00:00:00",
+      "redeemableDate": "2026-06-22T00:00:00",
+      "drawNumberSize": [
+        11,
+        15,
+        33,
+        38,
+        41,
+        43,
+        21
+      ],
+      "drawNumberAppear": [
+        15,
+        43,
+        38,
+        33,
+        41,
+        11,
+        21
+      ],
+      "totalAmount": 60341932,
+      "sellAmount": 107753450,
+      "jackpotAssign": {
+        "prize": 24936800,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1976697,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1976697
+      },
+      "thirdAssign": {
+        "prize": 2128751,
+        "lastPrize": 0,
+        "winnerCount": 35,
+        "perPrize": 60821
+      },
+      "fourthAssign": {
+        "prize": 1368482,
+        "lastPrize": 0,
+        "winnerCount": 79,
+        "perPrize": 17322
+      },
+      "fifthAssign": {
+        "prize": 3516000,
+        "lastPrize": 0,
+        "winnerCount": 1758,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2418000,
+        "lastPrize": 0,
+        "winnerCount": 2418,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10506000,
+        "lastPrize": 0,
+        "winnerCount": 26265,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13491200,
+        "lastPrize": 0,
+        "winnerCount": 33728,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000038,
+      "lotteryDate": "2026-03-24T00:00:00",
+      "redeemableDate": "2026-06-24T00:00:00",
+      "drawNumberSize": [
+        14,
+        33,
+        41,
+        42,
+        44,
+        48,
+        47
+      ],
+      "drawNumberAppear": [
+        33,
+        48,
+        41,
+        44,
+        14,
+        42,
+        47
+      ],
+      "totalAmount": 81698512,
+      "sellAmount": 101360200,
+      "jackpotAssign": {
+        "prize": 25702171,
+        "lastPrize": 24936800,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2037367,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 2037367
+      },
+      "thirdAssign": {
+        "prize": 2194087,
+        "lastPrize": 0,
+        "winnerCount": 27,
+        "perPrize": 81262
+      },
+      "fourthAssign": {
+        "prize": 1410485,
+        "lastPrize": 0,
+        "winnerCount": 90,
+        "perPrize": 15672
+      },
+      "fifthAssign": {
+        "prize": 3176000,
+        "lastPrize": 0,
+        "winnerCount": 1588,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2154000,
+        "lastPrize": 0,
+        "winnerCount": 2154,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8608400,
+        "lastPrize": 0,
+        "winnerCount": 21521,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 11479200,
+        "lastPrize": 0,
+        "winnerCount": 28698,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000039,
+      "lotteryDate": "2026-03-27T00:00:00",
+      "redeemableDate": "2026-06-29T00:00:00",
+      "drawNumberSize": [
+        4,
+        8,
+        23,
+        26,
+        29,
+        36,
+        38
+      ],
+      "drawNumberAppear": [
+        23,
+        29,
+        36,
+        8,
+        26,
+        4,
+        38
+      ],
+      "totalAmount": 104545411,
+      "sellAmount": 96261500,
+      "jackpotAssign": {
+        "prize": 17888496,
+        "lastPrize": 50638971,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1417990,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 708995
+      },
+      "thirdAssign": {
+        "prize": 1527066,
+        "lastPrize": 0,
+        "winnerCount": 47,
+        "perPrize": 32490
+      },
+      "fourthAssign": {
+        "prize": 981685,
+        "lastPrize": 0,
+        "winnerCount": 107,
+        "perPrize": 9174
+      },
+      "fifthAssign": {
+        "prize": 4532000,
+        "lastPrize": 0,
+        "winnerCount": 2266,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2634000,
+        "lastPrize": 0,
+        "winnerCount": 2634,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10066800,
+        "lastPrize": 0,
+        "winnerCount": 25167,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14858400,
+        "lastPrize": 0,
+        "winnerCount": 37146,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000040,
+      "lotteryDate": "2026-03-31T00:00:00",
+      "redeemableDate": "2026-06-30T00:00:00",
+      "drawNumberSize": [
+        5,
+        11,
+        25,
+        40,
+        45,
+        47,
+        39
+      ],
+      "drawNumberAppear": [
+        5,
+        45,
+        40,
+        25,
+        11,
+        47,
+        39
+      ],
+      "totalAmount": 124461359,
+      "sellAmount": 99881950,
+      "jackpotAssign": {
+        "prize": 21924743,
+        "lastPrize": 68527467,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1737936,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 868968
+      },
+      "thirdAssign": {
+        "prize": 1871624,
+        "lastPrize": 0,
+        "winnerCount": 51,
+        "perPrize": 36698
+      },
+      "fourthAssign": {
+        "prize": 1203187,
+        "lastPrize": 0,
+        "winnerCount": 108,
+        "perPrize": 11140
+      },
+      "fifthAssign": {
+        "prize": 3826000,
+        "lastPrize": 0,
+        "winnerCount": 1913,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2436000,
+        "lastPrize": 0,
+        "winnerCount": 2436,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9809600,
+        "lastPrize": 0,
+        "winnerCount": 24524,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13124800,
+        "lastPrize": 0,
+        "winnerCount": 32812,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000041,
+      "lotteryDate": "2026-04-03T00:00:00",
+      "redeemableDate": "2026-07-06T00:00:00",
+      "drawNumberSize": [
+        5,
+        12,
+        13,
+        25,
+        36,
+        48,
+        8
+      ],
+      "drawNumberAppear": [
+        48,
+        36,
+        12,
+        25,
+        13,
+        5,
+        8
+      ],
+      "totalAmount": 143893374,
+      "sellAmount": 95430650,
+      "jackpotAssign": {
+        "prize": 16823418,
+        "lastPrize": 90452210,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1333563,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 666781
+      },
+      "thirdAssign": {
+        "prize": 1436145,
+        "lastPrize": 0,
+        "winnerCount": 40,
+        "perPrize": 35903
+      },
+      "fourthAssign": {
+        "prize": 923236,
+        "lastPrize": 0,
+        "winnerCount": 125,
+        "perPrize": 7385
+      },
+      "fifthAssign": {
+        "prize": 4398000,
+        "lastPrize": 0,
+        "winnerCount": 2199,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3290000,
+        "lastPrize": 0,
+        "winnerCount": 3290,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11926400,
+        "lastPrize": 0,
+        "winnerCount": 29816,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13310400,
+        "lastPrize": 0,
+        "winnerCount": 33276,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000042,
+      "lotteryDate": "2026-04-07T00:00:00",
+      "redeemableDate": "2026-07-07T00:00:00",
+      "drawNumberSize": [
+        1,
+        2,
+        6,
+        16,
+        18,
+        26,
+        47
+      ],
+      "drawNumberAppear": [
+        1,
+        26,
+        2,
+        16,
+        18,
+        6,
+        47
+      ],
+      "totalAmount": 160407840,
+      "sellAmount": 94878950,
+      "jackpotAssign": {
+        "prize": 19075833,
+        "lastPrize": 107275628,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1512108,
+        "lastPrize": 0,
         "winnerCount": 0,
         "perPrize": 0
       },
       "thirdAssign": {
-        "prize": 1864321,
+        "prize": 1628424,
         "lastPrize": 0,
-        "winnerCount": 33,
-        "perPrize": 56494
+        "winnerCount": 41,
+        "perPrize": 39717
       },
       "fourthAssign": {
-        "prize": 1198492,
+        "prize": 1046844,
         "lastPrize": 0,
-        "winnerCount": 71,
-        "perPrize": 16880
+        "winnerCount": 67,
+        "perPrize": 15624
       },
       "fifthAssign": {
-        "prize": 3372000,
+        "prize": 4646000,
         "lastPrize": 0,
-        "winnerCount": 1686,
+        "winnerCount": 2323,
         "perPrize": 2000
       },
       "sixthAssign": {
-        "prize": 2121000,
+        "prize": 2049000,
         "lastPrize": 0,
-        "winnerCount": 2121,
+        "winnerCount": 2049,
         "perPrize": 1000
       },
       "seventhAssign": {
-        "prize": 9113600,
+        "prize": 8463600,
         "lastPrize": 0,
-        "winnerCount": 22784,
+        "winnerCount": 21159,
         "perPrize": 400
       },
       "normalAssign": {
-        "prize": 11784400,
+        "prize": 14710400,
         "lastPrize": 0,
-        "winnerCount": 29461,
+        "winnerCount": 36776,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000043,
+      "lotteryDate": "2026-04-10T00:00:00",
+      "redeemableDate": "2026-07-13T00:00:00",
+      "drawNumberSize": [
+        4,
+        10,
+        15,
+        17,
+        21,
+        40,
+        30
+      ],
+      "drawNumberAppear": [
+        21,
+        40,
+        15,
+        10,
+        4,
+        17,
+        30
+      ],
+      "totalAmount": 187532185,
+      "sellAmount": 106551100,
+      "jackpotAssign": {
+        "prize": 21657689,
+        "lastPrize": 126351461,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1716768,
+        "lastPrize": 1512108,
+        "winnerCount": 1,
+        "perPrize": 3228876
+      },
+      "thirdAssign": {
+        "prize": 1848827,
+        "lastPrize": 0,
+        "winnerCount": 36,
+        "perPrize": 51356
+      },
+      "fourthAssign": {
+        "prize": 1188531,
+        "lastPrize": 0,
+        "winnerCount": 113,
+        "perPrize": 10517
+      },
+      "fifthAssign": {
+        "prize": 4358000,
+        "lastPrize": 0,
+        "winnerCount": 2179,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3000000,
+        "lastPrize": 0,
+        "winnerCount": 3000,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11004000,
+        "lastPrize": 0,
+        "winnerCount": 27510,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14894800,
+        "lastPrize": 0,
+        "winnerCount": 37237,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000044,
+      "lotteryDate": "2026-04-14T00:00:00",
+      "redeemableDate": "2026-07-14T00:00:00",
+      "drawNumberSize": [
+        4,
+        8,
+        21,
+        23,
+        24,
+        43,
+        13
+      ],
+      "drawNumberAppear": [
+        43,
+        8,
+        23,
+        21,
+        4,
+        24,
+        13
+      ],
+      "totalAmount": 209877670,
+      "sellAmount": 110479500,
+      "jackpotAssign": {
+        "prize": 23629054,
+        "lastPrize": 148009150,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1873034,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1873034
+      },
+      "thirdAssign": {
+        "prize": 2017114,
+        "lastPrize": 0,
+        "winnerCount": 29,
+        "perPrize": 69555
+      },
+      "fourthAssign": {
+        "prize": 1296716,
+        "lastPrize": 0,
+        "winnerCount": 80,
+        "perPrize": 16208
+      },
+      "fifthAssign": {
+        "prize": 4026000,
+        "lastPrize": 0,
+        "winnerCount": 2013,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2725000,
+        "lastPrize": 0,
+        "winnerCount": 2725,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11451600,
+        "lastPrize": 0,
+        "winnerCount": 28629,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14850000,
+        "lastPrize": 0,
+        "winnerCount": 37125,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000045,
+      "lotteryDate": "2026-04-17T00:00:00",
+      "redeemableDate": "2026-07-20T00:00:00",
+      "drawNumberSize": [
+        7,
+        10,
+        11,
+        22,
+        40,
+        45,
+        18
+      ],
+      "drawNumberAppear": [
+        40,
+        22,
+        45,
+        7,
+        11,
+        10,
+        18
+      ],
+      "totalAmount": 233897240,
+      "sellAmount": 111176850,
+      "jackpotAssign": {
+        "prize": 22290089,
+        "lastPrize": 171638204,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1766897,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1902812,
+        "lastPrize": 0,
+        "winnerCount": 40,
+        "perPrize": 47570
+      },
+      "fourthAssign": {
+        "prize": 1223236,
+        "lastPrize": 0,
+        "winnerCount": 108,
+        "perPrize": 11326
+      },
+      "fifthAssign": {
+        "prize": 4576000,
+        "lastPrize": 0,
+        "winnerCount": 2288,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2954000,
+        "lastPrize": 0,
+        "winnerCount": 2954,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11435200,
+        "lastPrize": 0,
+        "winnerCount": 28588,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 16110800,
+        "lastPrize": 0,
+        "winnerCount": 40277,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000046,
+      "lotteryDate": "2026-04-21T00:00:00",
+      "redeemableDate": "2026-07-21T00:00:00",
+      "drawNumberSize": [
+        1,
+        6,
+        17,
+        19,
+        20,
+        40,
+        22
+      ],
+      "drawNumberAppear": [
+        1,
+        20,
+        17,
+        19,
+        6,
+        40,
+        22
+      ],
+      "totalAmount": 262352214,
+      "sellAmount": 119030400,
+      "jackpotAssign": {
+        "prize": 26777611,
+        "lastPrize": 193928293,
+        "winnerCount": 1,
+        "perPrize": 220705904
+      },
+      "secondAssign": {
+        "prize": 2122615,
+        "lastPrize": 1766897,
+        "winnerCount": 2,
+        "perPrize": 1944756
+      },
+      "thirdAssign": {
+        "prize": 2285893,
+        "lastPrize": 0,
+        "winnerCount": 28,
+        "perPrize": 81639
+      },
+      "fourthAssign": {
+        "prize": 1469503,
+        "lastPrize": 0,
+        "winnerCount": 91,
+        "perPrize": 16148
+      },
+      "fifthAssign": {
+        "prize": 4258000,
+        "lastPrize": 0,
+        "winnerCount": 2129,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2925000,
+        "lastPrize": 0,
+        "winnerCount": 2925,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11566000,
+        "lastPrize": 0,
+        "winnerCount": 28915,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15252400,
+        "lastPrize": 0,
+        "winnerCount": 38131,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000047,
+      "lotteryDate": "2026-04-24T00:00:00",
+      "redeemableDate": "2026-07-27T00:00:00",
+      "drawNumberSize": [
+        7,
+        14,
+        16,
+        37,
+        39,
+        47,
+        34
+      ],
+      "drawNumberAppear": [
+        14,
+        37,
+        47,
+        39,
+        16,
+        7,
+        34
+      ],
+      "totalAmount": 48754020,
+      "sellAmount": 87060750,
+      "jackpotAssign": {
+        "prize": 19720852,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1563238,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1683487,
+        "lastPrize": 0,
+        "winnerCount": 20,
+        "perPrize": 84174
+      },
+      "fourthAssign": {
+        "prize": 1082241,
+        "lastPrize": 0,
+        "winnerCount": 79,
+        "perPrize": 13699
+      },
+      "fifthAssign": {
+        "prize": 3070000,
+        "lastPrize": 0,
+        "winnerCount": 1535,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2139000,
+        "lastPrize": 0,
+        "winnerCount": 2139,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8231200,
+        "lastPrize": 0,
+        "winnerCount": 20578,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 11264000,
+        "lastPrize": 0,
+        "winnerCount": 28160,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000048,
+      "lotteryDate": "2026-04-28T00:00:00",
+      "redeemableDate": "2026-07-28T00:00:00",
+      "drawNumberSize": [
+        6,
+        10,
+        14,
+        25,
+        26,
+        32,
+        7
+      ],
+      "drawNumberAppear": [
+        25,
+        32,
+        14,
+        10,
+        6,
+        26,
+        7
+      ],
+      "totalAmount": 74611154,
+      "sellAmount": 95226900,
+      "jackpotAssign": {
+        "prize": 19202156,
+        "lastPrize": 19720852,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1522122,
+        "lastPrize": 1563238,
+        "winnerCount": 2,
+        "perPrize": 1542680
+      },
+      "thirdAssign": {
+        "prize": 1639208,
+        "lastPrize": 0,
+        "winnerCount": 59,
+        "perPrize": 27783
+      },
+      "fourthAssign": {
+        "prize": 1053776,
+        "lastPrize": 0,
+        "winnerCount": 104,
+        "perPrize": 10132
+      },
+      "fifthAssign": {
+        "prize": 3766000,
+        "lastPrize": 0,
+        "winnerCount": 1883,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2639000,
+        "lastPrize": 0,
+        "winnerCount": 2639,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10602800,
+        "lastPrize": 0,
+        "winnerCount": 26507,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12902000,
+        "lastPrize": 0,
+        "winnerCount": 32255,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000049,
+      "lotteryDate": "2026-05-01T00:00:00",
+      "redeemableDate": "2026-08-03T00:00:00",
+      "drawNumberSize": [
+        7,
+        22,
+        27,
+        35,
+        43,
+        48,
+        45
+      ],
+      "drawNumberAppear": [
+        7,
+        43,
+        27,
+        35,
+        22,
+        48,
+        45
+      ],
+      "totalAmount": 89618996,
+      "sellAmount": 90528550,
+      "jackpotAssign": {
+        "prize": 21745406,
+        "lastPrize": 38923008,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1723721,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1723721
+      },
+      "thirdAssign": {
+        "prize": 1856315,
+        "lastPrize": 0,
+        "winnerCount": 36,
+        "perPrize": 51564
+      },
+      "fourthAssign": {
+        "prize": 1193345,
+        "lastPrize": 0,
+        "winnerCount": 62,
+        "perPrize": 19247
+      },
+      "fifthAssign": {
+        "prize": 3086000,
+        "lastPrize": 0,
+        "winnerCount": 1543,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 1936000,
+        "lastPrize": 0,
+        "winnerCount": 1936,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 7894800,
+        "lastPrize": 0,
+        "winnerCount": 19737,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 11260400,
+        "lastPrize": 0,
+        "winnerCount": 28151,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000050,
+      "lotteryDate": "2026-05-05T00:00:00",
+      "redeemableDate": "2026-08-05T00:00:00",
+      "drawNumberSize": [
+        4,
+        17,
+        23,
+        28,
+        33,
+        37,
+        15
+      ],
+      "drawNumberAppear": [
+        17,
+        37,
+        28,
+        4,
+        23,
+        33,
+        15
+      ],
+      "totalAmount": 109953370,
+      "sellAmount": 88008850,
+      "jackpotAssign": {
+        "prize": 17063507,
+        "lastPrize": 60668414,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1352595,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1456640,
+        "lastPrize": 0,
+        "winnerCount": 37,
+        "perPrize": 39368
+      },
+      "fourthAssign": {
+        "prize": 936412,
+        "lastPrize": 0,
+        "winnerCount": 103,
+        "perPrize": 9091
+      },
+      "fifthAssign": {
+        "prize": 3776000,
+        "lastPrize": 0,
+        "winnerCount": 1888,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2561000,
+        "lastPrize": 0,
+        "winnerCount": 2561,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9592800,
+        "lastPrize": 0,
+        "winnerCount": 23982,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12546000,
+        "lastPrize": 0,
+        "winnerCount": 31365,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000051,
+      "lotteryDate": "2026-05-08T00:00:00",
+      "redeemableDate": "2026-08-10T00:00:00",
+      "drawNumberSize": [
+        10,
+        18,
+        25,
+        28,
+        39,
+        43,
+        48
+      ],
+      "drawNumberAppear": [
+        18,
+        43,
+        10,
+        25,
+        28,
+        39,
+        48
+      ],
+      "totalAmount": 132717788,
+      "sellAmount": 95773700,
+      "jackpotAssign": {
+        "prize": 22645671,
+        "lastPrize": 77731921,
+        "winnerCount": 1,
+        "perPrize": 100377592
+      },
+      "secondAssign": {
+        "prize": 1795083,
+        "lastPrize": 1352595,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1933167,
+        "lastPrize": 0,
+        "winnerCount": 23,
+        "perPrize": 84050
+      },
+      "fourthAssign": {
+        "prize": 1242750,
+        "lastPrize": 0,
+        "winnerCount": 50,
+        "perPrize": 24855
+      },
+      "fifthAssign": {
+        "prize": 3368000,
+        "lastPrize": 0,
+        "winnerCount": 1684,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2097000,
+        "lastPrize": 0,
+        "winnerCount": 2097,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8286800,
+        "lastPrize": 0,
+        "winnerCount": 20717,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12264800,
+        "lastPrize": 0,
+        "winnerCount": 30662,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000052,
+      "lotteryDate": "2026-05-12T00:00:00",
+      "redeemableDate": "2026-08-12T00:00:00",
+      "drawNumberSize": [
+        6,
+        12,
+        18,
+        19,
+        32,
+        36,
+        34
+      ],
+      "drawNumberAppear": [
+        36,
+        6,
+        12,
+        19,
+        18,
+        32,
+        34
+      ],
+      "totalAmount": 56524442,
+      "sellAmount": 95315650,
+      "jackpotAssign": {
+        "prize": 19902518,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1577638,
+        "lastPrize": 3147678,
+        "winnerCount": 1,
+        "perPrize": 4725316
+      },
+      "thirdAssign": {
+        "prize": 1698995,
+        "lastPrize": 0,
+        "winnerCount": 37,
+        "perPrize": 45918
+      },
+      "fourthAssign": {
+        "prize": 1092211,
+        "lastPrize": 0,
+        "winnerCount": 84,
+        "perPrize": 13002
+      },
+      "fifthAssign": {
+        "prize": 4202000,
+        "lastPrize": 0,
+        "winnerCount": 2101,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2205000,
+        "lastPrize": 0,
+        "winnerCount": 2205,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8998400,
+        "lastPrize": 0,
+        "winnerCount": 22496,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13700000,
+        "lastPrize": 0,
+        "winnerCount": 34250,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000053,
+      "lotteryDate": "2026-05-15T00:00:00",
+      "redeemableDate": "2026-08-17T00:00:00",
+      "drawNumberSize": [
+        16,
+        29,
+        30,
+        35,
+        42,
+        43,
+        1
+      ],
+      "drawNumberAppear": [
+        29,
+        35,
+        43,
+        16,
+        30,
+        42,
+        1
+      ],
+      "totalAmount": 70777426,
+      "sellAmount": 90848050,
+      "jackpotAssign": {
+        "prize": 22312616,
+        "lastPrize": 19902518,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1768683,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 884341
+      },
+      "thirdAssign": {
+        "prize": 1904735,
+        "lastPrize": 0,
+        "winnerCount": 24,
+        "perPrize": 79363
+      },
+      "fourthAssign": {
+        "prize": 1224472,
+        "lastPrize": 0,
+        "winnerCount": 57,
+        "perPrize": 21481
+      },
+      "fifthAssign": {
+        "prize": 2792000,
+        "lastPrize": 0,
+        "winnerCount": 1396,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 1926000,
+        "lastPrize": 0,
+        "winnerCount": 1926,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8151200,
+        "lastPrize": 0,
+        "winnerCount": 20378,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 10795200,
+        "lastPrize": 0,
+        "winnerCount": 26988,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000054,
+      "lotteryDate": "2026-05-19T00:00:00",
+      "redeemableDate": "2026-08-19T00:00:00",
+      "drawNumberSize": [
+        4,
+        20,
+        22,
+        26,
+        38,
+        47,
+        27
+      ],
+      "drawNumberAppear": [
+        22,
+        38,
+        4,
+        26,
+        20,
+        47,
+        27
+      ],
+      "totalAmount": 93882358,
+      "sellAmount": 92262900,
+      "jackpotAssign": {
+        "prize": 20256807,
+        "lastPrize": 42215134,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1605722,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1605722
+      },
+      "thirdAssign": {
+        "prize": 1729239,
+        "lastPrize": 0,
+        "winnerCount": 39,
+        "perPrize": 44339
+      },
+      "fourthAssign": {
+        "prize": 1111654,
+        "lastPrize": 0,
+        "winnerCount": 79,
+        "perPrize": 14071
+      },
+      "fifthAssign": {
+        "prize": 3440000,
+        "lastPrize": 0,
+        "winnerCount": 1720,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2159000,
+        "lastPrize": 0,
+        "winnerCount": 2159,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9217200,
+        "lastPrize": 0,
+        "winnerCount": 23043,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12147600,
+        "lastPrize": 0,
+        "winnerCount": 30369,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000055,
+      "lotteryDate": "2026-05-22T00:00:00",
+      "redeemableDate": "2026-08-24T00:00:00",
+      "drawNumberSize": [
+        12,
+        13,
+        16,
+        21,
+        28,
+        48,
+        30
+      ],
+      "drawNumberAppear": [
+        28,
+        12,
+        13,
+        21,
+        16,
+        48,
+        30
+      ],
+      "totalAmount": 113210853,
+      "sellAmount": 90605200,
+      "jackpotAssign": {
+        "prize": 20574547,
+        "lastPrize": 62471941,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1630909,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1756363,
+        "lastPrize": 0,
+        "winnerCount": 32,
+        "perPrize": 54886
+      },
+      "fourthAssign": {
+        "prize": 1129091,
+        "lastPrize": 0,
+        "winnerCount": 74,
+        "perPrize": 15257
+      },
+      "fifthAssign": {
+        "prize": 3288000,
+        "lastPrize": 0,
+        "winnerCount": 1644,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2058000,
+        "lastPrize": 0,
+        "winnerCount": 2058,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8311200,
+        "lastPrize": 0,
+        "winnerCount": 20778,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 11990800,
+        "lastPrize": 0,
+        "winnerCount": 29977,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000056,
+      "lotteryDate": "2026-05-26T00:00:00",
+      "redeemableDate": "2026-08-26T00:00:00",
+      "drawNumberSize": [
+        3,
+        27,
+        29,
+        37,
+        47,
+        48,
+        11
+      ],
+      "drawNumberAppear": [
+        47,
+        29,
+        37,
+        48,
+        3,
+        27,
+        11
+      ],
+      "totalAmount": 135082185,
+      "sellAmount": 90008550,
+      "jackpotAssign": {
+        "prize": 20582974,
+        "lastPrize": 83046488,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1631577,
+        "lastPrize": 1630909,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1757083,
+        "lastPrize": 0,
+        "winnerCount": 34,
+        "perPrize": 51678
+      },
+      "fourthAssign": {
+        "prize": 1129553,
+        "lastPrize": 0,
+        "winnerCount": 87,
+        "perPrize": 12983
+      },
+      "fifthAssign": {
+        "prize": 2922000,
+        "lastPrize": 0,
+        "winnerCount": 1461,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2286000,
+        "lastPrize": 0,
+        "winnerCount": 2286,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9604800,
+        "lastPrize": 0,
+        "winnerCount": 24012,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 10490800,
+        "lastPrize": 0,
+        "winnerCount": 26227,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000057,
+      "lotteryDate": "2026-05-29T00:00:00",
+      "redeemableDate": "2026-08-31T00:00:00",
+      "drawNumberSize": [
+        20,
+        26,
+        29,
+        31,
+        37,
+        49,
+        30
+      ],
+      "drawNumberAppear": [
+        26,
+        49,
+        29,
+        37,
+        20,
+        31,
+        30
+      ],
+      "totalAmount": 158566424,
+      "sellAmount": 92275850,
+      "jackpotAssign": {
+        "prize": 22101194,
+        "lastPrize": 103629462,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1751923,
+        "lastPrize": 3262486,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1886687,
+        "lastPrize": 0,
+        "winnerCount": 27,
+        "perPrize": 69877
+      },
+      "fourthAssign": {
+        "prize": 1212870,
+        "lastPrize": 0,
+        "winnerCount": 69,
+        "perPrize": 17577
+      },
+      "fifthAssign": {
+        "prize": 3164000,
+        "lastPrize": 0,
+        "winnerCount": 1582,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2043000,
+        "lastPrize": 0,
+        "winnerCount": 2043,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8557600,
+        "lastPrize": 0,
+        "winnerCount": 21394,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 10957200,
+        "lastPrize": 0,
+        "winnerCount": 27393,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000058,
+      "lotteryDate": "2026-06-02T00:00:00",
+      "redeemableDate": "2026-09-02T00:00:00",
+      "drawNumberSize": [
+        8,
+        9,
+        16,
+        20,
+        37,
+        49,
+        2
+      ],
+      "drawNumberAppear": [
+        8,
+        20,
+        16,
+        9,
+        37,
+        49,
+        2
+      ],
+      "totalAmount": 187675001,
+      "sellAmount": 101660600,
+      "jackpotAssign": {
+        "prize": 20850743,
+        "lastPrize": 125730656,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1652802,
+        "lastPrize": 5014409,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1779941,
+        "lastPrize": 0,
+        "winnerCount": 43,
+        "perPrize": 41393
+      },
+      "fourthAssign": {
+        "prize": 1144248,
+        "lastPrize": 0,
+        "winnerCount": 101,
+        "perPrize": 11329
+      },
+      "fifthAssign": {
+        "prize": 3518000,
+        "lastPrize": 0,
+        "winnerCount": 1759,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2989000,
+        "lastPrize": 0,
+        "winnerCount": 2989,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11718000,
+        "lastPrize": 0,
+        "winnerCount": 29295,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13277200,
+        "lastPrize": 0,
+        "winnerCount": 33193,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000059,
+      "lotteryDate": "2026-06-05T00:00:00",
+      "redeemableDate": "2026-09-07T00:00:00",
+      "drawNumberSize": [
+        12,
+        14,
+        25,
+        30,
+        32,
+        44,
+        34
+      ],
+      "drawNumberAppear": [
+        32,
+        12,
+        44,
+        25,
+        14,
+        30,
+        34
+      ],
+      "totalAmount": 224988362,
+      "sellAmount": 128106700,
+      "jackpotAssign": {
+        "prize": 30459188,
+        "lastPrize": 146581399,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2414447,
+        "lastPrize": 6667211,
+        "winnerCount": 1,
+        "perPrize": 9081658
+      },
+      "thirdAssign": {
+        "prize": 2600174,
+        "lastPrize": 0,
+        "winnerCount": 38,
+        "perPrize": 68425
+      },
+      "fourthAssign": {
+        "prize": 1671540,
+        "lastPrize": 0,
+        "winnerCount": 101,
+        "perPrize": 16549
+      },
+      "fifthAssign": {
+        "prize": 4016000,
+        "lastPrize": 0,
+        "winnerCount": 2008,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2830000,
+        "lastPrize": 0,
+        "winnerCount": 2830,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11797600,
+        "lastPrize": 0,
+        "winnerCount": 29494,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15950800,
+        "lastPrize": 0,
+        "winnerCount": 39877,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000060,
+      "lotteryDate": "2026-06-09T00:00:00",
+      "redeemableDate": "2026-09-09T00:00:00",
+      "drawNumberSize": [
+        13,
+        18,
+        25,
+        39,
+        40,
+        46,
+        31
+      ],
+      "drawNumberAppear": [
+        39,
+        18,
+        13,
+        46,
+        40,
+        25,
+        31
+      ],
+      "totalAmount": 257167347,
+      "sellAmount": 143083500,
+      "jackpotAssign": {
+        "prize": 33640303,
+        "lastPrize": 177040587,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2666609,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 888869
+      },
+      "thirdAssign": {
+        "prize": 2871733,
+        "lastPrize": 0,
+        "winnerCount": 51,
+        "perPrize": 56308
+      },
+      "fourthAssign": {
+        "prize": 1846114,
+        "lastPrize": 0,
+        "winnerCount": 133,
+        "perPrize": 13880
+      },
+      "fifthAssign": {
+        "prize": 4892000,
+        "lastPrize": 0,
+        "winnerCount": 2446,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3268000,
+        "lastPrize": 0,
+        "winnerCount": 3268,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 13213600,
+        "lastPrize": 0,
+        "winnerCount": 33034,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 17728400,
+        "lastPrize": 0,
+        "winnerCount": 44321,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000061,
+      "lotteryDate": "2026-06-12T00:00:00",
+      "redeemableDate": "2026-09-14T00:00:00",
+      "drawNumberSize": [
+        1,
+        6,
+        16,
+        20,
+        34,
+        49,
+        3
+      ],
+      "drawNumberAppear": [
+        16,
+        49,
+        20,
+        34,
+        6,
+        1,
+        3
+      ],
+      "totalAmount": 296087050,
+      "sellAmount": 152511000,
+      "jackpotAssign": {
+        "prize": 33435303,
+        "lastPrize": 210680890,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2650359,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 2650359
+      },
+      "thirdAssign": {
+        "prize": 2854233,
+        "lastPrize": 0,
+        "winnerCount": 52,
+        "perPrize": 54889
+      },
+      "fourthAssign": {
+        "prize": 1834864,
+        "lastPrize": 0,
+        "winnerCount": 132,
+        "perPrize": 13900
+      },
+      "fifthAssign": {
+        "prize": 5572000,
+        "lastPrize": 0,
+        "winnerCount": 2786,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3805000,
+        "lastPrize": 0,
+        "winnerCount": 3805,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 15627200,
+        "lastPrize": 0,
+        "winnerCount": 39068,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 19627200,
+        "lastPrize": 0,
+        "winnerCount": 49068,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000062,
+      "lotteryDate": "2026-06-16T00:00:00",
+      "redeemableDate": "2026-09-16T00:00:00",
+      "drawNumberSize": [
+        1,
+        2,
+        9,
+        11,
+        28,
+        36,
+        41
+      ],
+      "drawNumberAppear": [
+        36,
+        2,
+        28,
+        11,
+        9,
+        1,
+        41
+      ],
+      "totalAmount": 336898701,
+      "sellAmount": 165683050,
+      "jackpotAssign": {
+        "prize": 30382728,
+        "lastPrize": 244116193,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2408387,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 2408387
+      },
+      "thirdAssign": {
+        "prize": 2593647,
+        "lastPrize": 0,
+        "winnerCount": 95,
+        "perPrize": 27301
+      },
+      "fourthAssign": {
+        "prize": 1667344,
+        "lastPrize": 0,
+        "winnerCount": 185,
+        "perPrize": 9012
+      },
+      "fifthAssign": {
+        "prize": 8276000,
+        "lastPrize": 0,
+        "winnerCount": 4138,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4582000,
+        "lastPrize": 0,
+        "winnerCount": 4582,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 16704400,
+        "lastPrize": 0,
+        "winnerCount": 41761,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 26168000,
+        "lastPrize": 0,
+        "winnerCount": 65420,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000063,
+      "lotteryDate": "2026-06-19T00:00:00",
+      "redeemableDate": "2026-09-21T00:00:00",
+      "drawNumberSize": [
+        4,
+        12,
+        28,
+        29,
+        35,
+        48,
+        38
+      ],
+      "drawNumberAppear": [
+        29,
+        48,
+        28,
+        4,
+        35,
+        12,
+        38
+      ],
+      "totalAmount": 383926029,
+      "sellAmount": 195405550,
+      "jackpotAssign": {
+        "prize": 40397880,
+        "lastPrize": 274498921,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3202271,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3202271
+      },
+      "thirdAssign": {
+        "prize": 3448599,
+        "lastPrize": 0,
+        "winnerCount": 94,
+        "perPrize": 36687
+      },
+      "fourthAssign": {
+        "prize": 2216956,
+        "lastPrize": 0,
+        "winnerCount": 174,
+        "perPrize": 12741
+      },
+      "fifthAssign": {
+        "prize": 8126000,
+        "lastPrize": 0,
+        "winnerCount": 4063,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 5029000,
+        "lastPrize": 0,
+        "winnerCount": 5029,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 19797200,
+        "lastPrize": 0,
+        "winnerCount": 49493,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 27209200,
+        "lastPrize": 0,
+        "winnerCount": 68023,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000064,
+      "lotteryDate": "2026-06-23T00:00:00",
+      "redeemableDate": "2026-09-23T00:00:00",
+      "drawNumberSize": [
+        12,
+        18,
+        29,
+        33,
+        34,
+        39,
+        30
+      ],
+      "drawNumberAppear": [
+        33,
+        29,
+        39,
+        34,
+        18,
+        12,
+        30
+      ],
+      "totalAmount": 424971577,
+      "sellAmount": 196562100,
+      "jackpotAssign": {
+        "prize": 44829216,
+        "lastPrize": 314896801,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3553535,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3553535
+      },
+      "thirdAssign": {
+        "prize": 3826884,
+        "lastPrize": 0,
+        "winnerCount": 57,
+        "perPrize": 67138
+      },
+      "fourthAssign": {
+        "prize": 2460139,
+        "lastPrize": 0,
+        "winnerCount": 164,
+        "perPrize": 15000
+      },
+      "fifthAssign": {
+        "prize": 6998000,
+        "lastPrize": 0,
+        "winnerCount": 3499,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4691000,
+        "lastPrize": 0,
+        "winnerCount": 4691,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 18536000,
+        "lastPrize": 0,
+        "winnerCount": 46340,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 25180000,
+        "lastPrize": 0,
+        "winnerCount": 62950,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000065,
+      "lotteryDate": "2026-06-26T00:00:00",
+      "redeemableDate": "2026-09-29T00:00:00",
+      "drawNumberSize": [
+        11,
+        19,
+        23,
+        24,
+        29,
+        41,
+        1
+      ],
+      "drawNumberAppear": [
+        29,
+        11,
+        23,
+        41,
+        24,
+        19,
+        1
+      ],
+      "totalAmount": 454840561,
+      "sellAmount": 169847400,
+      "jackpotAssign": {
+        "prize": 36788434,
+        "lastPrize": 359726017,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2916156,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 972052
+      },
+      "thirdAssign": {
+        "prize": 3140476,
+        "lastPrize": 0,
+        "winnerCount": 45,
+        "perPrize": 69788
+      },
+      "fourthAssign": {
+        "prize": 2018877,
+        "lastPrize": 0,
+        "winnerCount": 155,
+        "perPrize": 13025
+      },
+      "fifthAssign": {
+        "prize": 6238000,
+        "lastPrize": 0,
+        "winnerCount": 3119,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4257000,
+        "lastPrize": 0,
+        "winnerCount": 4257,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 17062800,
+        "lastPrize": 0,
+        "winnerCount": 42657,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 22692800,
+        "lastPrize": 0,
+        "winnerCount": 56732,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000066,
+      "lotteryDate": "2026-06-30T00:00:00",
+      "redeemableDate": "2026-09-30T00:00:00",
+      "drawNumberSize": [
+        4,
+        10,
+        16,
+        29,
+        36,
+        45,
+        14
+      ],
+      "drawNumberAppear": [
+        29,
+        10,
+        36,
+        45,
+        16,
+        4,
+        14
+      ],
+      "totalAmount": 511818423,
+      "sellAmount": 205899950,
+      "jackpotAssign": {
+        "prize": 46721281,
+        "lastPrize": 396514451,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3703516,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3703516
+      },
+      "thirdAssign": {
+        "prize": 3988402,
+        "lastPrize": 0,
+        "winnerCount": 58,
+        "perPrize": 68765
+      },
+      "fourthAssign": {
+        "prize": 2563972,
+        "lastPrize": 0,
+        "winnerCount": 141,
+        "perPrize": 18184
+      },
+      "fifthAssign": {
+        "prize": 7236000,
+        "lastPrize": 0,
+        "winnerCount": 3618,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4834000,
+        "lastPrize": 0,
+        "winnerCount": 4834,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 19924000,
+        "lastPrize": 0,
+        "winnerCount": 49810,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 26332800,
+        "lastPrize": 0,
+        "winnerCount": 65832,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000067,
+      "lotteryDate": "2026-07-03T00:00:00",
+      "redeemableDate": "2026-10-05T00:00:00",
+      "drawNumberSize": [
+        11,
+        16,
+        19,
+        23,
+        39,
+        47,
+        15
+      ],
+      "drawNumberAppear": [
+        19,
+        23,
+        47,
+        39,
+        16,
+        11,
+        15
+      ],
+      "totalAmount": 558591364,
+      "sellAmount": 205992200,
+      "jackpotAssign": {
+        "prize": 47721566,
+        "lastPrize": 443235732,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3782807,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 1260935
+      },
+      "thirdAssign": {
+        "prize": 4073792,
+        "lastPrize": 0,
+        "winnerCount": 66,
+        "perPrize": 61724
+      },
+      "fourthAssign": {
+        "prize": 2618866,
+        "lastPrize": 0,
+        "winnerCount": 175,
+        "perPrize": 14964
+      },
+      "fifthAssign": {
+        "prize": 6988000,
+        "lastPrize": 0,
+        "winnerCount": 3494,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4673000,
+        "lastPrize": 0,
+        "winnerCount": 4673,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 19744800,
+        "lastPrize": 0,
+        "winnerCount": 49362,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 25752800,
+        "lastPrize": 0,
+        "winnerCount": 64382,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000068,
+      "lotteryDate": "2026-07-07T00:00:00",
+      "redeemableDate": "2026-10-07T00:00:00",
+      "drawNumberSize": [
+        8,
+        13,
+        15,
+        18,
+        19,
+        42,
+        37
+      ],
+      "drawNumberAppear": [
+        13,
+        8,
+        18,
+        15,
+        19,
+        42,
+        37
+      ],
+      "totalAmount": 616468418,
+      "sellAmount": 224127000,
+      "jackpotAssign": {
+        "prize": 49381810,
+        "lastPrize": 490957298,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3914411,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 3914411
+      },
+      "thirdAssign": {
+        "prize": 4215520,
+        "lastPrize": 0,
+        "winnerCount": 65,
+        "perPrize": 64854
+      },
+      "fourthAssign": {
+        "prize": 2709977,
+        "lastPrize": 0,
+        "winnerCount": 220,
+        "perPrize": 12318
+      },
+      "fifthAssign": {
+        "prize": 7748000,
+        "lastPrize": 0,
+        "winnerCount": 3874,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 5793000,
+        "lastPrize": 0,
+        "winnerCount": 5793,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 22834000,
+        "lastPrize": 0,
+        "winnerCount": 57085,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 28914400,
+        "lastPrize": 0,
+        "winnerCount": 72286,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000069,
+      "lotteryDate": "2026-07-10T00:00:00",
+      "redeemableDate": "2026-10-12T00:00:00",
+      "drawNumberSize": [
+        3,
+        4,
+        15,
+        18,
+        29,
+        49,
+        13
+      ],
+      "drawNumberAppear": [
+        4,
+        3,
+        29,
+        15,
+        18,
+        49,
+        13
+      ],
+      "totalAmount": 663295704,
+      "sellAmount": 219565350,
+      "jackpotAssign": {
+        "prize": 50190884,
+        "lastPrize": 540339108,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3978545,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 1989272
+      },
+      "thirdAssign": {
+        "prize": 4284587,
+        "lastPrize": 0,
+        "winnerCount": 46,
+        "perPrize": 93143
+      },
+      "fourthAssign": {
+        "prize": 2754377,
+        "lastPrize": 0,
+        "winnerCount": 156,
+        "perPrize": 17656
+      },
+      "fifthAssign": {
+        "prize": 7794000,
+        "lastPrize": 0,
+        "winnerCount": 3897,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 5047000,
+        "lastPrize": 0,
+        "winnerCount": 5047,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 20622800,
+        "lastPrize": 0,
+        "winnerCount": 51557,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 28284400,
+        "lastPrize": 0,
+        "winnerCount": 70711,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000070,
+      "lotteryDate": "2026-07-14T00:00:00",
+      "redeemableDate": "2026-10-14T00:00:00",
+      "drawNumberSize": [
+        10,
+        25,
+        34,
+        36,
+        45,
+        46,
+        7
+      ],
+      "drawNumberAppear": [
+        46,
+        36,
+        45,
+        34,
+        25,
+        10,
+        7
+      ],
+      "totalAmount": 722283068,
+      "sellAmount": 235273350,
+      "jackpotAssign": {
+        "prize": 52915810,
+        "lastPrize": 590529992,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 4194545,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 1398181
+      },
+      "thirdAssign": {
+        "prize": 4517203,
+        "lastPrize": 0,
+        "winnerCount": 69,
+        "perPrize": 65466
+      },
+      "fourthAssign": {
+        "prize": 2903916,
+        "lastPrize": 0,
+        "winnerCount": 180,
+        "perPrize": 16132
+      },
+      "fifthAssign": {
+        "prize": 7958000,
+        "lastPrize": 0,
+        "winnerCount": 3979,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 5884000,
+        "lastPrize": 0,
+        "winnerCount": 5884,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 24861600,
+        "lastPrize": 0,
+        "winnerCount": 62154,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 28518000,
+        "lastPrize": 0,
+        "winnerCount": 71295,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000071,
+      "lotteryDate": "2026-07-17T00:00:00",
+      "redeemableDate": "2026-10-19T00:00:00",
+      "drawNumberSize": [
+        1,
+        6,
+        12,
+        14,
+        17,
+        26,
+        24
+      ],
+      "drawNumberAppear": [
+        14,
+        1,
+        26,
+        12,
+        6,
+        17,
+        24
+      ],
+      "totalAmount": 804565838,
+      "sellAmount": 287714350,
+      "jackpotAssign": {
+        "prize": 49877021,
+        "lastPrize": 643445802,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3953666,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 1976833
+      },
+      "thirdAssign": {
+        "prize": 4257794,
+        "lastPrize": 0,
+        "winnerCount": 140,
+        "perPrize": 30412
+      },
+      "fourthAssign": {
+        "prize": 2737153,
+        "lastPrize": 0,
+        "winnerCount": 334,
+        "perPrize": 8195
+      },
+      "fifthAssign": {
+        "prize": 13778000,
+        "lastPrize": 0,
+        "winnerCount": 6889,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 9222000,
+        "lastPrize": 0,
+        "winnerCount": 9222,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 32359600,
+        "lastPrize": 0,
+        "winnerCount": 80899,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 44934800,
+        "lastPrize": 0,
+        "winnerCount": 112337,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000072,
+      "lotteryDate": "2026-07-21T00:00:00",
+      "redeemableDate": "2026-10-21T00:00:00",
+      "drawNumberSize": [
+        2,
+        8,
+        15,
+        26,
+        35,
+        46,
+        11
+      ],
+      "drawNumberAppear": [
+        15,
+        26,
+        2,
+        8,
+        46,
+        35,
+        11
+      ],
+      "totalAmount": 856410671,
+      "sellAmount": 291228300,
+      "jackpotAssign": {
+        "prize": 59254059,
+        "lastPrize": 693322823,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 4696968,
+        "lastPrize": 0,
+        "winnerCount": 5,
+        "perPrize": 939393
+      },
+      "thirdAssign": {
+        "prize": 5058273,
+        "lastPrize": 0,
+        "winnerCount": 121,
+        "perPrize": 41803
+      },
+      "fourthAssign": {
+        "prize": 3251747,
+        "lastPrize": 0,
+        "winnerCount": 379,
+        "perPrize": 8579
+      },
+      "fifthAssign": {
+        "prize": 10376000,
+        "lastPrize": 0,
+        "winnerCount": 5188,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 8812000,
+        "lastPrize": 0,
+        "winnerCount": 8812,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 33375600,
+        "lastPrize": 0,
+        "winnerCount": 83439,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 38263200,
+        "lastPrize": 0,
+        "winnerCount": 95658,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000073,
+      "lotteryDate": "2026-07-24T00:00:00",
+      "redeemableDate": "2026-10-27T00:00:00",
+      "drawNumberSize": [
+        3,
+        15,
+        27,
+        34,
+        35,
+        44,
+        40
+      ],
+      "drawNumberAppear": [
+        34,
+        35,
+        44,
+        27,
+        15,
+        3,
+        40
+      ],
+      "totalAmount": 931280610,
+      "sellAmount": 319113800,
+      "jackpotAssign": {
+        "prize": 76657968,
+        "lastPrize": 752576882,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 6076546,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 2025515
+      },
+      "thirdAssign": {
+        "prize": 6543972,
+        "lastPrize": 0,
+        "winnerCount": 125,
+        "perPrize": 52351
+      },
+      "fourthAssign": {
+        "prize": 4206839,
+        "lastPrize": 0,
+        "winnerCount": 260,
+        "perPrize": 16180
+      },
+      "fifthAssign": {
+        "prize": 11078000,
+        "lastPrize": 0,
+        "winnerCount": 5539,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 6806000,
+        "lastPrize": 0,
+        "winnerCount": 6806,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 27314000,
+        "lastPrize": 0,
+        "winnerCount": 68285,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 40020400,
+        "lastPrize": 0,
+        "winnerCount": 100051,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000074,
+      "lotteryDate": "2026-07-28T00:00:00",
+      "redeemableDate": "2026-10-28T00:00:00",
+      "drawNumberSize": [
+        8,
+        19,
+        24,
+        26,
+        32,
+        43,
+        47
+      ],
+      "drawNumberAppear": [
+        24,
+        32,
+        19,
+        26,
+        8,
+        43,
+        47
+      ],
+      "totalAmount": 1028285730,
+      "sellAmount": 355448000,
+      "jackpotAssign": {
+        "prize": 80941609,
+        "lastPrize": 829234850,
+        "winnerCount": 1,
+        "perPrize": 910176459
+      },
+      "secondAssign": {
+        "prize": 6416103,
+        "lastPrize": 0,
+        "winnerCount": 11,
+        "perPrize": 583282
+      },
+      "thirdAssign": {
+        "prize": 6909649,
+        "lastPrize": 0,
+        "winnerCount": 124,
+        "perPrize": 55722
+      },
+      "fourthAssign": {
+        "prize": 4441917,
+        "lastPrize": 0,
+        "winnerCount": 319,
+        "perPrize": 13924
+      },
+      "fifthAssign": {
+        "prize": 13526000,
+        "lastPrize": 0,
+        "winnerCount": 6763,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 7934000,
+        "lastPrize": 0,
+        "winnerCount": 7934,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 32048800,
+        "lastPrize": 0,
+        "winnerCount": 80122,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 46832800,
+        "lastPrize": 0,
+        "winnerCount": 117082,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000075,
+      "lotteryDate": "2026-07-31T00:00:00",
+      "redeemableDate": "2026-11-02T00:00:00",
+      "drawNumberSize": [
+        11,
+        20,
+        23,
+        33,
+        34,
+        44,
+        10
+      ],
+      "drawNumberAppear": [
+        44,
+        11,
+        20,
+        33,
+        34,
+        23,
+        10
+      ],
+      "totalAmount": 55119680,
+      "sellAmount": 98428000,
+      "jackpotAssign": {
+        "prize": 21642981,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1715602,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1847571,
+        "lastPrize": 0,
+        "winnerCount": 27,
+        "perPrize": 68428
+      },
+      "fourthAssign": {
+        "prize": 1187724,
+        "lastPrize": 0,
+        "winnerCount": 117,
+        "perPrize": 10151
+      },
+      "fifthAssign": {
+        "prize": 3524000,
+        "lastPrize": 0,
+        "winnerCount": 1762,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2555000,
+        "lastPrize": 0,
+        "winnerCount": 2555,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9919600,
+        "lastPrize": 0,
+        "winnerCount": 24799,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12727200,
+        "lastPrize": 0,
+        "winnerCount": 31818,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000076,
+      "lotteryDate": "2026-08-04T00:00:00",
+      "redeemableDate": "2026-11-04T00:00:00",
+      "drawNumberSize": [
+        4,
+        9,
+        15,
+        30,
+        36,
+        49,
+        40
+      ],
+      "drawNumberAppear": [
+        4,
+        9,
+        49,
+        15,
+        30,
+        36,
+        40
+      ],
+      "totalAmount": 76773287,
+      "sellAmount": 95383400,
+      "jackpotAssign": {
+        "prize": 20853669,
+        "lastPrize": 21642981,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1653034,
+        "lastPrize": 1715602,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1780191,
+        "lastPrize": 0,
+        "winnerCount": 34,
+        "perPrize": 52358
+      },
+      "fourthAssign": {
+        "prize": 1144408,
+        "lastPrize": 0,
+        "winnerCount": 92,
+        "perPrize": 12439
+      },
+      "fifthAssign": {
+        "prize": 3838000,
+        "lastPrize": 0,
+        "winnerCount": 1919,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2237000,
+        "lastPrize": 0,
+        "winnerCount": 2237,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8514000,
+        "lastPrize": 0,
+        "winnerCount": 21285,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13394400,
+        "lastPrize": 0,
+        "winnerCount": 33486,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000077,
+      "lotteryDate": "2026-08-07T00:00:00",
+      "redeemableDate": "2026-11-09T00:00:00",
+      "drawNumberSize": [
+        2,
+        12,
+        19,
+        21,
+        25,
+        41,
+        31
+      ],
+      "drawNumberAppear": [
+        2,
+        12,
+        19,
+        25,
+        21,
+        41,
+        31
+      ],
+      "totalAmount": 99750894,
+      "sellAmount": 96224300,
+      "jackpotAssign": {
+        "prize": 19189810,
+        "lastPrize": 42496650,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1521143,
+        "lastPrize": 3368636,
+        "winnerCount": 1,
+        "perPrize": 4889779
+      },
+      "thirdAssign": {
+        "prize": 1638154,
+        "lastPrize": 0,
+        "winnerCount": 35,
+        "perPrize": 46804
+      },
+      "fourthAssign": {
+        "prize": 1053099,
+        "lastPrize": 0,
+        "winnerCount": 95,
+        "perPrize": 11085
+      },
+      "fifthAssign": {
+        "prize": 3876000,
+        "lastPrize": 0,
+        "winnerCount": 1938,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2663000,
+        "lastPrize": 0,
+        "winnerCount": 2663,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10055600,
+        "lastPrize": 0,
+        "winnerCount": 25139,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13888800,
+        "lastPrize": 0,
+        "winnerCount": 34722,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000078,
+      "lotteryDate": "2026-08-11T00:00:00",
+      "redeemableDate": "2026-11-11T00:00:00",
+      "drawNumberSize": [
+        8,
+        12,
+        16,
+        24,
+        29,
+        46,
+        10
+      ],
+      "drawNumberAppear": [
+        8,
+        46,
+        24,
+        29,
+        12,
+        16,
+        10
+      ],
+      "totalAmount": 115446292,
+      "sellAmount": 95999700,
+      "jackpotAssign": {
+        "prize": 16397730,
+        "lastPrize": 61686460,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1299820,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1299820
+      },
+      "thirdAssign": {
+        "prize": 1399806,
+        "lastPrize": 0,
+        "winnerCount": 51,
+        "perPrize": 27447
+      },
+      "fourthAssign": {
+        "prize": 899875,
+        "lastPrize": 0,
+        "winnerCount": 122,
+        "perPrize": 7376
+      },
+      "fifthAssign": {
+        "prize": 4440000,
+        "lastPrize": 0,
+        "winnerCount": 2220,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3215000,
+        "lastPrize": 0,
+        "winnerCount": 3215,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11428000,
+        "lastPrize": 0,
+        "winnerCount": 28570,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14679600,
+        "lastPrize": 0,
+        "winnerCount": 36699,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000079,
+      "lotteryDate": "2026-08-14T00:00:00",
+      "redeemableDate": "2026-11-16T00:00:00",
+      "drawNumberSize": [
+        5,
+        12,
+        25,
+        33,
+        34,
+        35,
+        27
+      ],
+      "drawNumberAppear": [
+        35,
+        25,
+        5,
+        12,
+        34,
+        33,
+        27
+      ],
+      "totalAmount": 130683982,
+      "sellAmount": 93928200,
+      "jackpotAssign": {
+        "prize": 18825389,
+        "lastPrize": 78084190,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1492256,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1492256
+      },
+      "thirdAssign": {
+        "prize": 1607045,
+        "lastPrize": 0,
+        "winnerCount": 33,
+        "perPrize": 48698
+      },
+      "fourthAssign": {
+        "prize": 1033100,
+        "lastPrize": 0,
+        "winnerCount": 104,
+        "perPrize": 9933
+      },
+      "fifthAssign": {
+        "prize": 3522000,
+        "lastPrize": 0,
+        "winnerCount": 1761,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2674000,
+        "lastPrize": 0,
+        "winnerCount": 2674,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10415200,
+        "lastPrize": 0,
+        "winnerCount": 26038,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13030800,
+        "lastPrize": 0,
+        "winnerCount": 32577,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000080,
+      "lotteryDate": "2026-08-18T00:00:00",
+      "redeemableDate": "2026-11-18T00:00:00",
+      "drawNumberSize": [
+        1,
+        14,
+        25,
+        27,
+        29,
+        43,
+        2
+      ],
+      "drawNumberAppear": [
+        43,
+        25,
+        29,
+        27,
+        1,
+        14,
+        2
+      ],
+      "totalAmount": 152164303,
+      "sellAmount": 98669150,
+      "jackpotAssign": {
+        "prize": 23008317,
+        "lastPrize": 96909579,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1823830,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 911915
+      },
+      "thirdAssign": {
+        "prize": 1964124,
+        "lastPrize": 0,
+        "winnerCount": 23,
+        "perPrize": 85396
+      },
+      "fourthAssign": {
+        "prize": 1262651,
+        "lastPrize": 0,
+        "winnerCount": 85,
+        "perPrize": 14854
+      },
+      "fifthAssign": {
+        "prize": 3174000,
+        "lastPrize": 0,
+        "winnerCount": 1587,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2325000,
+        "lastPrize": 0,
+        "winnerCount": 2325,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9902400,
+        "lastPrize": 0,
+        "winnerCount": 24756,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 11794400,
+        "lastPrize": 0,
+        "winnerCount": 29486,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000081,
+      "lotteryDate": "2026-08-21T00:00:00",
+      "redeemableDate": "2026-11-23T00:00:00",
+      "drawNumberSize": [
+        8,
+        14,
+        23,
+        24,
+        26,
+        47,
+        30
+      ],
+      "drawNumberAppear": [
+        23,
+        24,
+        8,
+        26,
+        14,
+        47,
+        30
+      ],
+      "totalAmount": 171398556,
+      "sellAmount": 91929750,
+      "jackpotAssign": {
+        "prize": 19599361,
+        "lastPrize": 119917896,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1553607,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 517869
+      },
+      "thirdAssign": {
+        "prize": 1673116,
+        "lastPrize": 0,
+        "winnerCount": 23,
+        "perPrize": 72744
+      },
+      "fourthAssign": {
+        "prize": 1075574,
+        "lastPrize": 0,
+        "winnerCount": 87,
+        "perPrize": 12362
+      },
+      "fifthAssign": {
+        "prize": 3292000,
+        "lastPrize": 0,
+        "winnerCount": 1646,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2241000,
+        "lastPrize": 0,
+        "winnerCount": 2241,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9249600,
+        "lastPrize": 0,
+        "winnerCount": 23124,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12796400,
+        "lastPrize": 0,
+        "winnerCount": 31991,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000082,
+      "lotteryDate": "2026-08-25T00:00:00",
+      "redeemableDate": "2026-11-25T00:00:00",
+      "drawNumberSize": [
+        12,
+        24,
+        26,
+        32,
+        35,
+        40,
+        6
+      ],
+      "drawNumberAppear": [
+        40,
+        12,
+        26,
+        24,
+        32,
+        35,
+        6
+      ],
+      "totalAmount": 190527097,
+      "sellAmount": 91089000,
+      "jackpotAssign": {
+        "prize": 20131032,
+        "lastPrize": 139517257,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1595752,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1718502,
+        "lastPrize": 0,
+        "winnerCount": 15,
+        "perPrize": 114566
+      },
+      "fourthAssign": {
+        "prize": 1104751,
+        "lastPrize": 0,
+        "winnerCount": 72,
+        "perPrize": 15343
+      },
+      "fifthAssign": {
+        "prize": 2966000,
+        "lastPrize": 0,
+        "winnerCount": 1483,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2489000,
+        "lastPrize": 0,
+        "winnerCount": 2489,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9964800,
+        "lastPrize": 0,
+        "winnerCount": 24912,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 11040000,
+        "lastPrize": 0,
+        "winnerCount": 27600,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000083,
+      "lotteryDate": "2026-08-28T00:00:00",
+      "redeemableDate": "2026-11-30T00:00:00",
+      "drawNumberSize": [
+        9,
+        20,
+        23,
+        26,
+        36,
+        44,
+        4
+      ],
+      "drawNumberAppear": [
+        9,
+        44,
+        36,
+        26,
+        20,
+        23,
+        4
+      ],
+      "totalAmount": 220326477,
+      "sellAmount": 105504350,
+      "jackpotAssign": {
+        "prize": 22921161,
+        "lastPrize": 159648289,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1816921,
+        "lastPrize": 1595752,
+        "winnerCount": 1,
+        "perPrize": 3412673
+      },
+      "thirdAssign": {
+        "prize": 1956684,
+        "lastPrize": 0,
+        "winnerCount": 49,
+        "perPrize": 39932
+      },
+      "fourthAssign": {
+        "prize": 1257868,
+        "lastPrize": 0,
+        "winnerCount": 85,
+        "perPrize": 14798
+      },
+      "fifthAssign": {
+        "prize": 3694000,
+        "lastPrize": 0,
+        "winnerCount": 1847,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2805000,
+        "lastPrize": 0,
+        "winnerCount": 2805,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11148800,
+        "lastPrize": 0,
+        "winnerCount": 27872,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13482000,
+        "lastPrize": 0,
+        "winnerCount": 33705,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000084,
+      "lotteryDate": "2026-09-01T00:00:00",
+      "redeemableDate": "2026-12-01T00:00:00",
+      "drawNumberSize": [
+        10,
+        16,
+        19,
+        26,
+        29,
+        48,
+        30
+      ],
+      "drawNumberAppear": [
+        16,
+        19,
+        26,
+        10,
+        29,
+        48,
+        30
+      ],
+      "totalAmount": 238646366,
+      "sellAmount": 100137350,
+      "jackpotAssign": {
+        "prize": 22665387,
+        "lastPrize": 182569450,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1796646,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 898323
+      },
+      "thirdAssign": {
+        "prize": 1934850,
+        "lastPrize": 0,
+        "winnerCount": 44,
+        "perPrize": 43973
+      },
+      "fourthAssign": {
+        "prize": 1243832,
+        "lastPrize": 0,
+        "winnerCount": 111,
+        "perPrize": 11205
+      },
+      "fifthAssign": {
+        "prize": 3584000,
+        "lastPrize": 0,
+        "winnerCount": 1792,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2281000,
+        "lastPrize": 0,
+        "winnerCount": 2281,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9493200,
+        "lastPrize": 0,
+        "winnerCount": 23733,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13078000,
+        "lastPrize": 0,
+        "winnerCount": 32695,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000085,
+      "lotteryDate": "2026-09-04T00:00:00",
+      "redeemableDate": "2026-12-07T00:00:00",
+      "drawNumberSize": [
+        3,
+        13,
+        17,
+        18,
+        27,
+        37,
+        19
+      ],
+      "drawNumberAppear": [
+        13,
+        27,
+        3,
+        17,
+        37,
+        18,
+        19
+      ],
+      "totalAmount": 264242065,
+      "sellAmount": 105370050,
+      "jackpotAssign": {
+        "prize": 20519866,
+        "lastPrize": 205234837,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1626574,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 813287
+      },
+      "thirdAssign": {
+        "prize": 1751695,
+        "lastPrize": 0,
+        "winnerCount": 59,
+        "perPrize": 29689
+      },
+      "fourthAssign": {
+        "prize": 1126090,
+        "lastPrize": 0,
+        "winnerCount": 84,
+        "perPrize": 13405
+      },
+      "fifthAssign": {
+        "prize": 5066000,
+        "lastPrize": 0,
+        "winnerCount": 2533,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2607000,
+        "lastPrize": 0,
+        "winnerCount": 2607,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10228800,
+        "lastPrize": 0,
+        "winnerCount": 25572,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 16081200,
+        "lastPrize": 0,
+        "winnerCount": 40203,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000086,
+      "lotteryDate": "2026-09-08T00:00:00",
+      "redeemableDate": "2026-12-08T00:00:00",
+      "drawNumberSize": [
+        3,
+        15,
+        28,
+        35,
+        47,
+        49,
+        27
+      ],
+      "drawNumberAppear": [
+        28,
+        35,
+        49,
+        47,
+        3,
+        15,
+        27
+      ],
+      "totalAmount": 293466095,
+      "sellAmount": 120913200,
+      "jackpotAssign": {
+        "prize": 27808325,
+        "lastPrize": 225754703,
+        "winnerCount": 1,
+        "perPrize": 253563028
+      },
+      "secondAssign": {
+        "prize": 2204318,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 1102159
+      },
+      "thirdAssign": {
+        "prize": 2373881,
+        "lastPrize": 0,
+        "winnerCount": 41,
+        "perPrize": 57899
+      },
+      "fourthAssign": {
+        "prize": 1526066,
+        "lastPrize": 0,
+        "winnerCount": 96,
+        "perPrize": 15896
+      },
+      "fifthAssign": {
+        "prize": 3882000,
+        "lastPrize": 0,
+        "winnerCount": 1941,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2760000,
+        "lastPrize": 0,
+        "winnerCount": 2760,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 11559600,
+        "lastPrize": 0,
+        "winnerCount": 28899,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15597200,
+        "lastPrize": 0,
+        "winnerCount": 38993,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000087,
+      "lotteryDate": "2026-09-11T00:00:00",
+      "redeemableDate": "2026-12-14T00:00:00",
+      "drawNumberSize": [
+        12,
+        15,
+        19,
+        27,
+        43,
+        48,
+        25
+      ],
+      "drawNumberAppear": [
+        12,
+        15,
+        27,
+        19,
+        43,
+        48,
+        25
+      ],
+      "totalAmount": 52777648,
+      "sellAmount": 94245800,
+      "jackpotAssign": {
+        "prize": 20341123,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1612406,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 1612406
+      },
+      "thirdAssign": {
+        "prize": 1736437,
+        "lastPrize": 0,
+        "winnerCount": 24,
+        "perPrize": 72351
+      },
+      "fourthAssign": {
+        "prize": 1116281,
+        "lastPrize": 0,
+        "winnerCount": 99,
+        "perPrize": 11275
+      },
+      "fifthAssign": {
+        "prize": 3088000,
+        "lastPrize": 0,
+        "winnerCount": 1544,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2525000,
+        "lastPrize": 0,
+        "winnerCount": 2525,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10534800,
+        "lastPrize": 0,
+        "winnerCount": 26337,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 11823600,
+        "lastPrize": 0,
+        "winnerCount": 29559,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000088,
+      "lotteryDate": "2026-09-15T00:00:00",
+      "redeemableDate": "2026-12-15T00:00:00",
+      "drawNumberSize": [
+        2,
+        3,
+        18,
+        21,
+        22,
+        39,
+        7
+      ],
+      "drawNumberAppear": [
+        3,
+        22,
+        18,
+        2,
+        21,
+        39,
+        7
+      ],
+      "totalAmount": 101604095,
+      "sellAmount": 145112450,
+      "jackpotAssign": {
+        "prize": 28081533,
+        "lastPrize": 20341123,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2225975,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 2397204,
+        "lastPrize": 0,
+        "winnerCount": 51,
+        "perPrize": 47004
+      },
+      "fourthAssign": {
+        "prize": 1541059,
+        "lastPrize": 0,
+        "winnerCount": 144,
+        "perPrize": 10701
+      },
+      "fifthAssign": {
+        "prize": 5328000,
+        "lastPrize": 0,
+        "winnerCount": 2664,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4548000,
+        "lastPrize": 0,
+        "winnerCount": 4548,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 17888400,
+        "lastPrize": 0,
+        "winnerCount": 44721,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 19252800,
+        "lastPrize": 0,
+        "winnerCount": 48132,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000089,
+      "lotteryDate": "2026-09-18T00:00:00",
+      "redeemableDate": "2026-12-21T00:00:00",
+      "drawNumberSize": [
+        1,
+        6,
+        14,
+        21,
+        31,
+        35,
+        16
+      ],
+      "drawNumberAppear": [
+        21,
+        6,
+        1,
+        14,
+        35,
+        31,
+        16
+      ],
+      "totalAmount": 138219023,
+      "sellAmount": 156375700,
+      "jackpotAssign": {
+        "prize": 34776521,
+        "lastPrize": 48422656,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2756675,
+        "lastPrize": 2225975,
+        "winnerCount": 1,
+        "perPrize": 4982650
+      },
+      "thirdAssign": {
+        "prize": 2968727,
+        "lastPrize": 0,
+        "winnerCount": 52,
+        "perPrize": 57090
+      },
+      "fourthAssign": {
+        "prize": 1908467,
+        "lastPrize": 0,
+        "winnerCount": 122,
+        "perPrize": 15643
+      },
+      "fifthAssign": {
+        "prize": 5830000,
+        "lastPrize": 0,
+        "winnerCount": 2915,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3794000,
+        "lastPrize": 0,
+        "winnerCount": 3794,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 15125600,
+        "lastPrize": 0,
+        "winnerCount": 37814,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 20410400,
+        "lastPrize": 0,
+        "winnerCount": 51026,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000090,
+      "lotteryDate": "2026-09-22T00:00:00",
+      "redeemableDate": "2026-12-22T00:00:00",
+      "drawNumberSize": [
+        14,
+        15,
+        18,
+        30,
+        35,
+        45,
+        10
+      ],
+      "drawNumberAppear": [
+        18,
+        35,
+        14,
+        15,
+        45,
+        30,
+        10
+      ],
+      "totalAmount": 176297357,
+      "sellAmount": 166246750,
+      "jackpotAssign": {
+        "prize": 39020011,
+        "lastPrize": 83199177,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3093049,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 1546524
+      },
+      "thirdAssign": {
+        "prize": 3330976,
+        "lastPrize": 0,
+        "winnerCount": 38,
+        "perPrize": 87657
+      },
+      "fourthAssign": {
+        "prize": 2141342,
+        "lastPrize": 0,
+        "winnerCount": 115,
+        "perPrize": 18620
+      },
+      "fifthAssign": {
+        "prize": 5142000,
+        "lastPrize": 0,
+        "winnerCount": 2571,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4082000,
+        "lastPrize": 0,
+        "winnerCount": 4082,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 16400800,
+        "lastPrize": 0,
+        "winnerCount": 41002,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 19888000,
+        "lastPrize": 0,
+        "winnerCount": 49720,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000091,
+      "lotteryDate": "2026-09-25T00:00:00",
+      "redeemableDate": "2026-12-28T00:00:00",
+      "drawNumberSize": [
+        5,
+        13,
+        24,
+        25,
+        28,
+        33,
+        40
+      ],
+      "drawNumberAppear": [
+        5,
+        33,
+        24,
+        25,
+        13,
+        28,
+        40
+      ],
+      "totalAmount": 224036876,
+      "sellAmount": 181817300,
+      "jackpotAssign": {
+        "prize": 36593392,
+        "lastPrize": 122219188,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2900695,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 2900695
+      },
+      "thirdAssign": {
+        "prize": 3123826,
+        "lastPrize": 0,
+        "winnerCount": 90,
+        "perPrize": 34709
+      },
+      "fourthAssign": {
+        "prize": 2008173,
+        "lastPrize": 0,
+        "winnerCount": 195,
+        "perPrize": 10298
+      },
+      "fifthAssign": {
+        "prize": 7948000,
+        "lastPrize": 0,
+        "winnerCount": 3974,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4608000,
+        "lastPrize": 0,
+        "winnerCount": 4608,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 17250800,
+        "lastPrize": 0,
+        "winnerCount": 43127,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 27384800,
+        "lastPrize": 0,
+        "winnerCount": 68462,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000092,
+      "lotteryDate": "2026-09-29T00:00:00",
+      "redeemableDate": "2026-12-29T00:00:00",
+      "drawNumberSize": [
+        1,
+        2,
+        4,
+        13,
+        30,
+        38,
+        27
+      ],
+      "drawNumberAppear": [
+        2,
+        4,
+        38,
+        1,
+        30,
+        13,
+        27
+      ],
+      "totalAmount": 255224532,
+      "sellAmount": 172164200,
+      "jackpotAssign": {
+        "prize": 36443220,
+        "lastPrize": 158812580,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2888791,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 1444395
+      },
+      "thirdAssign": {
+        "prize": 3111006,
+        "lastPrize": 0,
+        "winnerCount": 57,
+        "perPrize": 54579
+      },
+      "fourthAssign": {
+        "prize": 1999932,
+        "lastPrize": 0,
+        "winnerCount": 165,
+        "perPrize": 12120
+      },
+      "fifthAssign": {
+        "prize": 6298000,
+        "lastPrize": 0,
+        "winnerCount": 3149,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4555000,
+        "lastPrize": 0,
+        "winnerCount": 4555,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 17928400,
+        "lastPrize": 0,
+        "winnerCount": 44821,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 23187600,
+        "lastPrize": 0,
+        "winnerCount": 57969,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000093,
+      "lotteryDate": "2026-10-02T00:00:00",
+      "redeemableDate": "2027-01-04T00:00:00",
+      "drawNumberSize": [
+        4,
+        14,
+        20,
+        26,
+        40,
+        47,
+        42
+      ],
+      "drawNumberAppear": [
+        26,
+        47,
+        20,
+        14,
+        40,
+        4,
+        42
+      ],
+      "totalAmount": 288455900,
+      "sellAmount": 166428750,
+      "jackpotAssign": {
+        "prize": 40003618,
+        "lastPrize": 195255800,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3171018,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 3414943,
+        "lastPrize": 0,
+        "winnerCount": 66,
+        "perPrize": 51741
+      },
+      "fourthAssign": {
+        "prize": 2195320,
+        "lastPrize": 0,
+        "winnerCount": 103,
+        "perPrize": 21313
+      },
+      "fifthAssign": {
+        "prize": 5290000,
+        "lastPrize": 0,
+        "winnerCount": 2645,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3636000,
+        "lastPrize": 0,
+        "winnerCount": 3636,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 14639200,
+        "lastPrize": 0,
+        "winnerCount": 36598,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 20850000,
+        "lastPrize": 0,
+        "winnerCount": 52125,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000094,
+      "lotteryDate": "2026-10-06T00:00:00",
+      "redeemableDate": "2027-01-06T00:00:00",
+      "drawNumberSize": [
+        4,
+        6,
+        20,
+        32,
+        36,
+        39,
+        23
+      ],
+      "drawNumberAppear": [
+        39,
+        20,
+        32,
+        6,
+        36,
+        4,
+        23
+      ],
+      "totalAmount": 334058332,
+      "sellAmount": 170764100,
+      "jackpotAssign": {
+        "prize": 38051358,
+        "lastPrize": 235259418,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 3016266,
+        "lastPrize": 3171018,
+        "winnerCount": 1,
+        "perPrize": 6187284
+      },
+      "thirdAssign": {
+        "prize": 3248286,
+        "lastPrize": 0,
+        "winnerCount": 54,
+        "perPrize": 60153
+      },
+      "fourthAssign": {
+        "prize": 2088184,
+        "lastPrize": 0,
+        "winnerCount": 167,
+        "perPrize": 12504
+      },
+      "fifthAssign": {
+        "prize": 5622000,
+        "lastPrize": 0,
+        "winnerCount": 2811,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 4473000,
+        "lastPrize": 0,
+        "winnerCount": 4473,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 17924800,
+        "lastPrize": 0,
+        "winnerCount": 44812,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 21204000,
+        "lastPrize": 0,
+        "winnerCount": 53010,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000095,
+      "lotteryDate": "2026-10-09T00:00:00",
+      "redeemableDate": "2027-01-11T00:00:00",
+      "drawNumberSize": [
+        3,
+        9,
+        11,
+        25,
+        34,
+        41,
+        27
+      ],
+      "drawNumberAppear": [
+        11,
+        34,
+        3,
+        9,
+        41,
+        25,
+        27
+      ],
+      "totalAmount": 370100504,
+      "sellAmount": 172838800,
+      "jackpotAssign": {
+        "prize": 31054652,
+        "lastPrize": 273310776,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2461649,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 1230824
+      },
+      "thirdAssign": {
+        "prize": 2651006,
+        "lastPrize": 0,
+        "winnerCount": 74,
+        "perPrize": 35824
+      },
+      "fourthAssign": {
+        "prize": 1704218,
+        "lastPrize": 0,
+        "winnerCount": 186,
+        "perPrize": 9162
+      },
+      "fifthAssign": {
+        "prize": 8512000,
+        "lastPrize": 0,
+        "winnerCount": 4256,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 5287000,
+        "lastPrize": 0,
+        "winnerCount": 5287,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 19139600,
+        "lastPrize": 0,
+        "winnerCount": 47849,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 25979600,
+        "lastPrize": 0,
+        "winnerCount": 64949,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000096,
+      "lotteryDate": "2026-10-13T00:00:00",
+      "redeemableDate": "2027-01-13T00:00:00",
+      "drawNumberSize": [
+        3,
+        31,
+        35,
+        36,
+        47,
+        48,
+        32
+      ],
+      "drawNumberAppear": [
+        31,
+        35,
+        48,
+        3,
+        36,
+        47,
+        32
+      ],
+      "totalAmount": 407931576,
+      "sellAmount": 184939550,
+      "jackpotAssign": {
+        "prize": 45896669,
+        "lastPrize": 304365428,
+        "winnerCount": 1,
+        "perPrize": 350262097
+      },
+      "secondAssign": {
+        "prize": 3638150,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 1819075
+      },
+      "thirdAssign": {
+        "prize": 3918008,
+        "lastPrize": 0,
+        "winnerCount": 53,
+        "perPrize": 73924
+      },
+      "fourthAssign": {
+        "prize": 2518719,
+        "lastPrize": 0,
+        "winnerCount": 143,
+        "perPrize": 17613
+      },
+      "fifthAssign": {
+        "prize": 5718000,
+        "lastPrize": 0,
+        "winnerCount": 2859,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3831000,
+        "lastPrize": 0,
+        "winnerCount": 3831,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 15922400,
+        "lastPrize": 0,
+        "winnerCount": 39806,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 22123200,
+        "lastPrize": 0,
+        "winnerCount": 55308,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000097,
+      "lotteryDate": "2026-10-16T00:00:00",
+      "redeemableDate": "2027-01-18T00:00:00",
+      "drawNumberSize": [
+        6,
+        15,
+        21,
+        40,
+        43,
+        49,
+        30
+      ],
+      "drawNumberAppear": [
+        21,
+        15,
+        40,
+        49,
+        6,
+        43,
+        30
+      ],
+      "totalAmount": 73455228,
+      "sellAmount": 131170050,
+      "jackpotAssign": {
+        "prize": 31253010,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2477372,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 2667939,
+        "lastPrize": 0,
+        "winnerCount": 39,
+        "perPrize": 68408
+      },
+      "fourthAssign": {
+        "prize": 1715104,
+        "lastPrize": 0,
+        "winnerCount": 111,
+        "perPrize": 15451
+      },
+      "fifthAssign": {
+        "prize": 4128000,
+        "lastPrize": 0,
+        "winnerCount": 2064,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 3103000,
+        "lastPrize": 0,
+        "winnerCount": 3103,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 12504000,
+        "lastPrize": 0,
+        "winnerCount": 31260,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15606800,
+        "lastPrize": 0,
+        "winnerCount": 39017,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000098,
+      "lotteryDate": "2026-10-20T00:00:00",
+      "redeemableDate": "2027-01-20T00:00:00",
+      "drawNumberSize": [
+        2,
+        5,
+        19,
+        33,
+        40,
+        43,
+        6
+      ],
+      "drawNumberAppear": [
+        2,
+        43,
+        19,
+        33,
+        5,
+        40,
+        6
+      ],
+      "totalAmount": 107469026,
+      "sellAmount": 131676150,
+      "jackpotAssign": {
+        "prize": 31066556,
+        "lastPrize": 31253010,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2462592,
+        "lastPrize": 2477372,
+        "winnerCount": 3,
+        "perPrize": 1646654
+      },
+      "thirdAssign": {
+        "prize": 2652023,
+        "lastPrize": 0,
+        "winnerCount": 29,
+        "perPrize": 91449
+      },
+      "fourthAssign": {
+        "prize": 1704871,
+        "lastPrize": 0,
+        "winnerCount": 98,
+        "perPrize": 17396
+      },
+      "fifthAssign": {
+        "prize": 4306000,
+        "lastPrize": 0,
+        "winnerCount": 2153,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2895000,
+        "lastPrize": 0,
+        "winnerCount": 2895,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 12710400,
+        "lastPrize": 0,
+        "winnerCount": 31776,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15941200,
+        "lastPrize": 0,
+        "winnerCount": 39853,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000099,
+      "lotteryDate": "2026-10-23T00:00:00",
+      "redeemableDate": "2027-01-26T00:00:00",
+      "drawNumberSize": [
+        9,
+        10,
+        33,
+        38,
+        40,
+        45,
+        2
+      ],
+      "drawNumberAppear": [
+        40,
+        38,
+        33,
+        9,
+        45,
+        10,
+        2
+      ],
+      "totalAmount": 131903906,
+      "sellAmount": 124257750,
+      "jackpotAssign": {
+        "prize": 28627298,
+        "lastPrize": 62319566,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 2269237,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 2269237
+      },
+      "thirdAssign": {
+        "prize": 2443793,
+        "lastPrize": 0,
+        "winnerCount": 48,
+        "perPrize": 50912
+      },
+      "fourthAssign": {
+        "prize": 1571010,
+        "lastPrize": 0,
+        "winnerCount": 103,
+        "perPrize": 15252
+      },
+      "fifthAssign": {
+        "prize": 3990000,
+        "lastPrize": 0,
+        "winnerCount": 1995,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2915000,
+        "lastPrize": 0,
+        "winnerCount": 2915,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 12069600,
+        "lastPrize": 0,
+        "winnerCount": 30174,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 15698400,
+        "lastPrize": 0,
+        "winnerCount": 39246,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000100,
+      "lotteryDate": "2026-10-27T00:00:00",
+      "redeemableDate": "2027-01-27T00:00:00",
+      "drawNumberSize": [
+        8,
+        14,
+        16,
+        34,
+        38,
+        41,
+        9
+      ],
+      "drawNumberAppear": [
+        34,
+        14,
+        38,
+        16,
+        41,
+        8,
+        9
+      ],
+      "totalAmount": 146058816,
+      "sellAmount": 98414200,
+      "jackpotAssign": {
+        "prize": 21472152,
+        "lastPrize": 90946864,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1702060,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1832988,
+        "lastPrize": 0,
+        "winnerCount": 36,
+        "perPrize": 50916
+      },
+      "fourthAssign": {
+        "prize": 1178349,
+        "lastPrize": 0,
+        "winnerCount": 73,
+        "perPrize": 16141
+      },
+      "fifthAssign": {
+        "prize": 3764000,
+        "lastPrize": 0,
+        "winnerCount": 1882,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2318000,
+        "lastPrize": 0,
+        "winnerCount": 2318,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9945600,
+        "lastPrize": 0,
+        "winnerCount": 24864,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12898800,
+        "lastPrize": 0,
+        "winnerCount": 32247,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000101,
+      "lotteryDate": "2026-10-30T00:00:00",
+      "redeemableDate": "2027-02-01T00:00:00",
+      "drawNumberSize": [
+        4,
+        22,
+        25,
+        30,
+        34,
+        37,
+        48
+      ],
+      "drawNumberAppear": [
+        30,
+        37,
+        4,
+        22,
+        25,
+        34,
+        48
+      ],
+      "totalAmount": 171501896,
+      "sellAmount": 102465750,
+      "jackpotAssign": {
+        "prize": 24155084,
+        "lastPrize": 112419016,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1914732,
+        "lastPrize": 1702060,
+        "winnerCount": 1,
+        "perPrize": 3616792
+      },
+      "thirdAssign": {
+        "prize": 2062019,
+        "lastPrize": 0,
+        "winnerCount": 44,
+        "perPrize": 46864
+      },
+      "fourthAssign": {
+        "prize": 1325583,
+        "lastPrize": 0,
+        "winnerCount": 76,
+        "perPrize": 17441
+      },
+      "fifthAssign": {
+        "prize": 3616000,
+        "lastPrize": 0,
+        "winnerCount": 1808,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2197000,
+        "lastPrize": 0,
+        "winnerCount": 2197,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8942000,
+        "lastPrize": 0,
+        "winnerCount": 22355,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13168400,
+        "lastPrize": 0,
+        "winnerCount": 32921,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000102,
+      "lotteryDate": "2026-11-03T00:00:00",
+      "redeemableDate": "2027-02-03T00:00:00",
+      "drawNumberSize": [
+        2,
+        23,
+        24,
+        25,
+        29,
+        39,
+        31
+      ],
+      "drawNumberAppear": [
+        23,
+        24,
+        29,
+        39,
+        2,
+        25,
+        31
+      ],
+      "totalAmount": 196480156,
+      "sellAmount": 106975100,
+      "jackpotAssign": {
+        "prize": 23659341,
+        "lastPrize": 136574100,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1875435,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 937717
+      },
+      "thirdAssign": {
+        "prize": 2019699,
+        "lastPrize": 0,
+        "winnerCount": 27,
+        "perPrize": 74803
+      },
+      "fourthAssign": {
+        "prize": 1298378,
+        "lastPrize": 0,
+        "winnerCount": 68,
+        "perPrize": 19093
+      },
+      "fifthAssign": {
+        "prize": 3858000,
+        "lastPrize": 0,
+        "winnerCount": 1929,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2414000,
+        "lastPrize": 0,
+        "winnerCount": 2414,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 10365200,
+        "lastPrize": 0,
+        "winnerCount": 25913,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14416000,
+        "lastPrize": 0,
+        "winnerCount": 36040,
         "perPrize": 400
       }
     },
@@ -442,75 +8196,367 @@
       }
     },
     {
-      "period": 115000102,
-      "lotteryDate": "2026-11-03T00:00:00",
-      "redeemableDate": "2027-02-03T00:00:00",
+      "period": 115000104,
+      "lotteryDate": "2026-11-10T00:00:00",
+      "redeemableDate": "2027-02-11T00:00:00",
       "drawNumberSize": [
-        2,
+        11,
         23,
-        24,
-        25,
-        29,
-        39,
-        31
+        30,
+        32,
+        40,
+        41,
+        28
       ],
       "drawNumberAppear": [
         23,
-        24,
-        29,
-        39,
-        2,
-        25,
-        31
+        41,
+        40,
+        30,
+        32,
+        11,
+        28
       ],
-      "totalAmount": 196480156,
-      "sellAmount": 106975100,
+      "totalAmount": 54986601,
+      "sellAmount": 94686000,
       "jackpotAssign": {
-        "prize": 23659341,
-        "lastPrize": 136574100,
+        "prize": 21839191,
+        "lastPrize": 0,
         "winnerCount": 0,
         "perPrize": 0
       },
       "secondAssign": {
-        "prize": 1875435,
-        "lastPrize": 0,
-        "winnerCount": 2,
-        "perPrize": 937717
+        "prize": 1731155,
+        "lastPrize": 1962441,
+        "winnerCount": 0,
+        "perPrize": 0
       },
       "thirdAssign": {
-        "prize": 2019699,
+        "prize": 1864321,
         "lastPrize": 0,
-        "winnerCount": 27,
-        "perPrize": 74803
+        "winnerCount": 33,
+        "perPrize": 56494
       },
       "fourthAssign": {
-        "prize": 1298378,
+        "prize": 1198492,
         "lastPrize": 0,
-        "winnerCount": 68,
-        "perPrize": 19093
+        "winnerCount": 71,
+        "perPrize": 16880
       },
       "fifthAssign": {
-        "prize": 3858000,
+        "prize": 3372000,
         "lastPrize": 0,
-        "winnerCount": 1929,
+        "winnerCount": 1686,
         "perPrize": 2000
       },
       "sixthAssign": {
-        "prize": 2414000,
+        "prize": 2121000,
         "lastPrize": 0,
-        "winnerCount": 2414,
+        "winnerCount": 2121,
         "perPrize": 1000
       },
       "seventhAssign": {
-        "prize": 10365200,
+        "prize": 9113600,
         "lastPrize": 0,
-        "winnerCount": 25913,
+        "winnerCount": 22784,
         "perPrize": 400
       },
       "normalAssign": {
-        "prize": 14416000,
+        "prize": 11784400,
         "lastPrize": 0,
-        "winnerCount": 36040,
+        "winnerCount": 29461,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000105,
+      "lotteryDate": "2026-11-13T00:00:00",
+      "redeemableDate": "2027-02-15T00:00:00",
+      "drawNumberSize": [
+        7,
+        8,
+        13,
+        15,
+        25,
+        46,
+        43
+      ],
+      "drawNumberAppear": [
+        8,
+        15,
+        46,
+        7,
+        25,
+        13,
+        43
+      ],
+      "totalAmount": 78165731,
+      "sellAmount": 93987400,
+      "jackpotAssign": {
+        "prize": 18402230,
+        "lastPrize": 21839191,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1458713,
+        "lastPrize": 3693596,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1570922,
+        "lastPrize": 0,
+        "winnerCount": 45,
+        "perPrize": 34909
+      },
+      "fourthAssign": {
+        "prize": 1009878,
+        "lastPrize": 0,
+        "winnerCount": 84,
+        "perPrize": 12022
+      },
+      "fifthAssign": {
+        "prize": 4250000,
+        "lastPrize": 0,
+        "winnerCount": 2125,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2368000,
+        "lastPrize": 0,
+        "winnerCount": 2368,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9076400,
+        "lastPrize": 0,
+        "winnerCount": 22691,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14496800,
+        "lastPrize": 0,
+        "winnerCount": 36242,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000106,
+      "lotteryDate": "2026-11-17T00:00:00",
+      "redeemableDate": "2027-02-17T00:00:00",
+      "drawNumberSize": [
+        3,
+        14,
+        15,
+        23,
+        43,
+        48,
+        18
+      ],
+      "drawNumberAppear": [
+        3,
+        15,
+        14,
+        48,
+        23,
+        43,
+        18
+      ],
+      "totalAmount": 98562874,
+      "sellAmount": 94944900,
+      "jackpotAssign": {
+        "prize": 22052542,
+        "lastPrize": 40241421,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1748067,
+        "lastPrize": 5152309,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1882534,
+        "lastPrize": 0,
+        "winnerCount": 21,
+        "perPrize": 89644
+      },
+      "fourthAssign": {
+        "prize": 1210200,
+        "lastPrize": 0,
+        "winnerCount": 93,
+        "perPrize": 13012
+      },
+      "fifthAssign": {
+        "prize": 3068000,
+        "lastPrize": 0,
+        "winnerCount": 1534,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2167000,
+        "lastPrize": 0,
+        "winnerCount": 2167,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9080400,
+        "lastPrize": 0,
+        "winnerCount": 22701,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 11960400,
+        "lastPrize": 0,
+        "winnerCount": 29901,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000107,
+      "lotteryDate": "2026-11-20T00:00:00",
+      "redeemableDate": "2027-02-22T00:00:00",
+      "drawNumberSize": [
+        1,
+        2,
+        4,
+        12,
+        16,
+        38,
+        44
+      ],
+      "drawNumberAppear": [
+        1,
+        16,
+        4,
+        38,
+        12,
+        2,
+        44
+      ],
+      "totalAmount": 141528594,
+      "sellAmount": 92818900,
+      "jackpotAssign": {
+        "prize": 37706037,
+        "lastPrize": 62293963,
+        "winnerCount": 2,
+        "perPrize": 50000000
+      },
+      "secondAssign": {
+        "prize": 1375333,
+        "lastPrize": 6900376,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1481128,
+        "lastPrize": 0,
+        "winnerCount": 42,
+        "perPrize": 35264
+      },
+      "fourthAssign": {
+        "prize": 952154,
+        "lastPrize": 0,
+        "winnerCount": 82,
+        "perPrize": 11611
+      },
+      "fifthAssign": {
+        "prize": 4492000,
+        "lastPrize": 0,
+        "winnerCount": 2246,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2330000,
+        "lastPrize": 0,
+        "winnerCount": 2330,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 9113600,
+        "lastPrize": 0,
+        "winnerCount": 22784,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 14884000,
+        "lastPrize": 0,
+        "winnerCount": 37210,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000108,
+      "lotteryDate": "2026-11-24T00:00:00",
+      "redeemableDate": "2027-02-24T00:00:00",
+      "drawNumberSize": [
+        10,
+        11,
+        23,
+        24,
+        33,
+        42,
+        40
+      ],
+      "drawNumberAppear": [
+        33,
+        11,
+        23,
+        10,
+        24,
+        42,
+        40
+      ],
+      "totalAmount": 58936473,
+      "sellAmount": 90465650,
+      "jackpotAssign": {
+        "prize": 18266126,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1447924,
+        "lastPrize": 8275709,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "thirdAssign": {
+        "prize": 1559303,
+        "lastPrize": 0,
+        "winnerCount": 64,
+        "perPrize": 24364
+      },
+      "fourthAssign": {
+        "prize": 1002409,
+        "lastPrize": 0,
+        "winnerCount": 84,
+        "perPrize": 11933
+      },
+      "fifthAssign": {
+        "prize": 4100000,
+        "lastPrize": 0,
+        "winnerCount": 2050,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2385000,
+        "lastPrize": 0,
+        "winnerCount": 2385,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8320000,
+        "lastPrize": 0,
+        "winnerCount": 20800,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 13580000,
+        "lastPrize": 0,
+        "winnerCount": 33950,
         "perPrize": 400
       }
     }
