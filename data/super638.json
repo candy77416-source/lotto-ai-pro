@@ -1,0 +1,602 @@
+{
+  "source": "https://api.taiwanlottery.com/TLCAPIWeB/Lottery/SuperLotto638Result?period=&month=2026-11&pageNum=1&pageSize=50",
+  "updated_at": "2026-11-25T10:48:35.201885+08:00",
+  "count": 7,
+  "records": [
+    {
+      "period": 115000094,
+      "lotteryDate": "2026-11-23T00:00:00",
+      "redeemableDate": "2027-02-23T00:00:00",
+      "drawNumberSize": [
+        2,
+        14,
+        16,
+        24,
+        26,
+        29,
+        7
+      ],
+      "drawNumberAppear": [
+        26,
+        14,
+        2,
+        24,
+        29,
+        16,
+        7
+      ],
+      "totalAmount": 67472888,
+      "sellAmount": 58392400,
+      "super638JackpotAssign": {
+        "prize": 18681384,
+        "lastPrize": 33297494,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638SecondAssign": {
+        "prize": 2308935,
+        "lastPrize": 2059574,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638ThirdAssign": {
+        "prize": 450000,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 150000
+      },
+      "super638FourthAssign": {
+        "prize": 640000,
+        "lastPrize": 0,
+        "winnerCount": 32,
+        "perPrize": 20000
+      },
+      "super638FifthAssign": {
+        "prize": 692000,
+        "lastPrize": 0,
+        "winnerCount": 173,
+        "perPrize": 4000
+      },
+      "super638SixthAssign": {
+        "prize": 956800,
+        "lastPrize": 0,
+        "winnerCount": 1196,
+        "perPrize": 800
+      },
+      "super638SeventhAssign": {
+        "prize": 941200,
+        "lastPrize": 0,
+        "winnerCount": 2353,
+        "perPrize": 400
+      },
+      "super638EighthAssign": {
+        "prize": 2620000,
+        "lastPrize": 0,
+        "winnerCount": 13100,
+        "perPrize": 200
+      },
+      "super638NormalAssign": {
+        "prize": 3060500,
+        "lastPrize": 0,
+        "winnerCount": 30605,
+        "perPrize": 100
+      },
+      "super638NinthAssign": {
+        "prize": 1765000,
+        "lastPrize": 0,
+        "winnerCount": 17650,
+        "perPrize": 100
+      }
+    },
+    {
+      "period": 115000093,
+      "lotteryDate": "2026-11-19T00:00:00",
+      "redeemableDate": "2027-02-19T00:00:00",
+      "drawNumberSize": [
+        1,
+        12,
+        13,
+        18,
+        30,
+        33,
+        3
+      ],
+      "drawNumberAppear": [
+        30,
+        33,
+        13,
+        12,
+        18,
+        1,
+        3
+      ],
+      "totalAmount": 46147768,
+      "sellAmount": 53662000,
+      "super638JackpotAssign": {
+        "prize": 16663826,
+        "lastPrize": 16633668,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638SecondAssign": {
+        "prize": 2059574,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638ThirdAssign": {
+        "prize": 150000,
+        "lastPrize": 0,
+        "winnerCount": 1,
+        "perPrize": 150000
+      },
+      "super638FourthAssign": {
+        "prize": 660000,
+        "lastPrize": 0,
+        "winnerCount": 33,
+        "perPrize": 20000
+      },
+      "super638FifthAssign": {
+        "prize": 680000,
+        "lastPrize": 0,
+        "winnerCount": 170,
+        "perPrize": 4000
+      },
+      "super638SixthAssign": {
+        "prize": 1048800,
+        "lastPrize": 0,
+        "winnerCount": 1311,
+        "perPrize": 800
+      },
+      "super638SeventhAssign": {
+        "prize": 1004000,
+        "lastPrize": 0,
+        "winnerCount": 2510,
+        "perPrize": 400
+      },
+      "super638EighthAssign": {
+        "prize": 2616400,
+        "lastPrize": 0,
+        "winnerCount": 13082,
+        "perPrize": 200
+      },
+      "super638NormalAssign": {
+        "prize": 2948900,
+        "lastPrize": 0,
+        "winnerCount": 29489,
+        "perPrize": 100
+      },
+      "super638NinthAssign": {
+        "prize": 1682600,
+        "lastPrize": 0,
+        "winnerCount": 16826,
+        "perPrize": 100
+      }
+    },
+    {
+      "period": 115000092,
+      "lotteryDate": "2026-11-16T00:00:00",
+      "redeemableDate": "2027-02-16T00:00:00",
+      "drawNumberSize": [
+        2,
+        3,
+        7,
+        8,
+        14,
+        28,
+        2
+      ],
+      "drawNumberAppear": [
+        14,
+        2,
+        7,
+        28,
+        3,
+        8,
+        2
+      ],
+      "totalAmount": 45975114,
+      "sellAmount": 57277300,
+      "super638JackpotAssign": {
+        "prize": 16633668,
+        "lastPrize": 0,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638SecondAssign": {
+        "prize": 2055846,
+        "lastPrize": 14472599,
+        "winnerCount": 1,
+        "perPrize": 16528445
+      },
+      "super638ThirdAssign": {
+        "prize": 900000,
+        "lastPrize": 0,
+        "winnerCount": 6,
+        "perPrize": 150000
+      },
+      "super638FourthAssign": {
+        "prize": 660000,
+        "lastPrize": 0,
+        "winnerCount": 33,
+        "perPrize": 20000
+      },
+      "super638FifthAssign": {
+        "prize": 920000,
+        "lastPrize": 0,
+        "winnerCount": 230,
+        "perPrize": 4000
+      },
+      "super638SixthAssign": {
+        "prize": 1242400,
+        "lastPrize": 0,
+        "winnerCount": 1553,
+        "perPrize": 800
+      },
+      "super638SeventhAssign": {
+        "prize": 1137200,
+        "lastPrize": 0,
+        "winnerCount": 2843,
+        "perPrize": 400
+      },
+      "super638EighthAssign": {
+        "prize": 2899800,
+        "lastPrize": 0,
+        "winnerCount": 14499,
+        "perPrize": 200
+      },
+      "super638NormalAssign": {
+        "prize": 3016600,
+        "lastPrize": 0,
+        "winnerCount": 30166,
+        "perPrize": 100
+      },
+      "super638NinthAssign": {
+        "prize": 2037000,
+        "lastPrize": 0,
+        "winnerCount": 20370,
+        "perPrize": 100
+      }
+    },
+    {
+      "period": 115000091,
+      "lotteryDate": "2026-11-12T00:00:00",
+      "redeemableDate": "2027-02-12T00:00:00",
+      "drawNumberSize": [
+        7,
+        9,
+        15,
+        23,
+        25,
+        35,
+        2
+      ],
+      "drawNumberAppear": [
+        15,
+        35,
+        7,
+        25,
+        23,
+        9,
+        2
+      ],
+      "totalAmount": 345657361,
+      "sellAmount": 72512900,
+      "super638JackpotAssign": {
+        "prize": 22176481,
+        "lastPrize": 294043580,
+        "winnerCount": 1,
+        "perPrize": 316220061
+      },
+      "super638SecondAssign": {
+        "prize": 2740913,
+        "lastPrize": 11731686,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638ThirdAssign": {
+        "prize": 450000,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 150000
+      },
+      "super638FourthAssign": {
+        "prize": 980000,
+        "lastPrize": 0,
+        "winnerCount": 49,
+        "perPrize": 20000
+      },
+      "super638FifthAssign": {
+        "prize": 992000,
+        "lastPrize": 0,
+        "winnerCount": 248,
+        "perPrize": 4000
+      },
+      "super638SixthAssign": {
+        "prize": 1443200,
+        "lastPrize": 0,
+        "winnerCount": 1804,
+        "perPrize": 800
+      },
+      "super638SeventhAssign": {
+        "prize": 1298400,
+        "lastPrize": 0,
+        "winnerCount": 3246,
+        "perPrize": 400
+      },
+      "super638EighthAssign": {
+        "prize": 3490200,
+        "lastPrize": 0,
+        "winnerCount": 17451,
+        "perPrize": 200
+      },
+      "super638NormalAssign": {
+        "prize": 3989100,
+        "lastPrize": 0,
+        "winnerCount": 39891,
+        "perPrize": 100
+      },
+      "super638NinthAssign": {
+        "prize": 2321800,
+        "lastPrize": 0,
+        "winnerCount": 23218,
+        "perPrize": 100
+      }
+    },
+    {
+      "period": 115000090,
+      "lotteryDate": "2026-11-09T00:00:00",
+      "redeemableDate": "2027-02-11T00:00:00",
+      "drawNumberSize": [
+        6,
+        20,
+        27,
+        28,
+        35,
+        36,
+        2
+      ],
+      "drawNumberAppear": [
+        27,
+        20,
+        6,
+        36,
+        35,
+        28,
+        2
+      ],
+      "totalAmount": 319066267,
+      "sellAmount": 68653100,
+      "super638JackpotAssign": {
+        "prize": 21776702,
+        "lastPrize": 272266878,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638SecondAssign": {
+        "prize": 2691502,
+        "lastPrize": 9040184,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638ThirdAssign": {
+        "prize": 300000,
+        "lastPrize": 0,
+        "winnerCount": 2,
+        "perPrize": 150000
+      },
+      "super638FourthAssign": {
+        "prize": 420000,
+        "lastPrize": 0,
+        "winnerCount": 21,
+        "perPrize": 20000
+      },
+      "super638FifthAssign": {
+        "prize": 816000,
+        "lastPrize": 0,
+        "winnerCount": 204,
+        "perPrize": 4000
+      },
+      "super638SixthAssign": {
+        "prize": 1197600,
+        "lastPrize": 0,
+        "winnerCount": 1497,
+        "perPrize": 800
+      },
+      "super638SeventhAssign": {
+        "prize": 1220800,
+        "lastPrize": 0,
+        "winnerCount": 3052,
+        "perPrize": 400
+      },
+      "super638EighthAssign": {
+        "prize": 3422200,
+        "lastPrize": 0,
+        "winnerCount": 17111,
+        "perPrize": 200
+      },
+      "super638NormalAssign": {
+        "prize": 3910900,
+        "lastPrize": 0,
+        "winnerCount": 39109,
+        "perPrize": 100
+      },
+      "super638NinthAssign": {
+        "prize": 2003500,
+        "lastPrize": 0,
+        "winnerCount": 20035,
+        "perPrize": 100
+      }
+    },
+    {
+      "period": 115000089,
+      "lotteryDate": "2026-11-05T00:00:00",
+      "redeemableDate": "2027-02-11T00:00:00",
+      "drawNumberSize": [
+        18,
+        19,
+        25,
+        33,
+        36,
+        37,
+        6
+      ],
+      "drawNumberAppear": [
+        33,
+        36,
+        18,
+        37,
+        25,
+        19,
+        6
+      ],
+      "totalAmount": 293602863,
+      "sellAmount": 62768900,
+      "super638JackpotAssign": {
+        "prize": 19782114,
+        "lastPrize": 252484764,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638SecondAssign": {
+        "prize": 2444980,
+        "lastPrize": 6595204,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638ThirdAssign": {
+        "prize": 750000,
+        "lastPrize": 0,
+        "winnerCount": 5,
+        "perPrize": 150000
+      },
+      "super638FourthAssign": {
+        "prize": 740000,
+        "lastPrize": 0,
+        "winnerCount": 37,
+        "perPrize": 20000
+      },
+      "super638FifthAssign": {
+        "prize": 712000,
+        "lastPrize": 0,
+        "winnerCount": 178,
+        "perPrize": 4000
+      },
+      "super638SixthAssign": {
+        "prize": 1048000,
+        "lastPrize": 0,
+        "winnerCount": 1310,
+        "perPrize": 800
+      },
+      "super638SeventhAssign": {
+        "prize": 1038000,
+        "lastPrize": 0,
+        "winnerCount": 2595,
+        "perPrize": 400
+      },
+      "super638EighthAssign": {
+        "prize": 2881000,
+        "lastPrize": 0,
+        "winnerCount": 14405,
+        "perPrize": 200
+      },
+      "super638NormalAssign": {
+        "prize": 3288500,
+        "lastPrize": 0,
+        "winnerCount": 32885,
+        "perPrize": 100
+      },
+      "super638NinthAssign": {
+        "prize": 1838300,
+        "lastPrize": 0,
+        "winnerCount": 18383,
+        "perPrize": 100
+      }
+    },
+    {
+      "period": 115000088,
+      "lotteryDate": "2026-11-02T00:00:00",
+      "redeemableDate": "2027-02-02T00:00:00",
+      "drawNumberSize": [
+        4,
+        6,
+        16,
+        19,
+        21,
+        37,
+        7
+      ],
+      "drawNumberAppear": [
+        21,
+        37,
+        6,
+        4,
+        19,
+        16,
+        7
+      ],
+      "totalAmount": 271242569,
+      "sellAmount": 62908700,
+      "super638JackpotAssign": {
+        "prize": 19969094,
+        "lastPrize": 232515670,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638SecondAssign": {
+        "prize": 2468090,
+        "lastPrize": 4127114,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638ThirdAssign": {
+        "prize": 450000,
+        "lastPrize": 0,
+        "winnerCount": 3,
+        "perPrize": 150000
+      },
+      "super638FourthAssign": {
+        "prize": 660000,
+        "lastPrize": 0,
+        "winnerCount": 33,
+        "perPrize": 20000
+      },
+      "super638FifthAssign": {
+        "prize": 768000,
+        "lastPrize": 0,
+        "winnerCount": 192,
+        "perPrize": 4000
+      },
+      "super638SixthAssign": {
+        "prize": 1115200,
+        "lastPrize": 0,
+        "winnerCount": 1394,
+        "perPrize": 800
+      },
+      "super638SeventhAssign": {
+        "prize": 1028000,
+        "lastPrize": 0,
+        "winnerCount": 2570,
+        "perPrize": 400
+      },
+      "super638EighthAssign": {
+        "prize": 2881200,
+        "lastPrize": 0,
+        "winnerCount": 14406,
+        "perPrize": 200
+      },
+      "super638NormalAssign": {
+        "prize": 3390800,
+        "lastPrize": 0,
+        "winnerCount": 33908,
+        "perPrize": 100
+      },
+      "super638NinthAssign": {
+        "prize": 1869400,
+        "lastPrize": 0,
+        "winnerCount": 18694,
+        "perPrize": 100
+      }
+    }
+  ]
+}
