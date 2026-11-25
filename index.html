@@ -1,47 +1,51 @@
 
 
+
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#101b2d">
-<title>LOTTO AI PRO V2.0</title>
+<title>LOTTO AI PRO V3.0</title>
 <style>
 *{box-sizing:border-box}
-body{background:#101b2d;color:white;font-family:Arial,sans-serif;margin:0;padding:18px}
-h1,h2{color:#e6c580}
+body{background:#101b2d;color:white;font-family:Arial,sans-serif;margin:0;padding:16px}
+h1,h2,h3{color:#e6c580}
 h1{font-size:28px;margin-bottom:5px}
 h2{font-size:21px}
-p,small{color:#b3c0d5}
-.card{background:#1c2a40;border-radius:16px;padding:16px;margin:15px 0}
-button,select{width:100%;padding:13px;margin-top:10px;border-radius:10px;font-size:16px}
+p,small{color:#b3c0d5;line-height:1.6}
+.card{background:#1c2a40;border-radius:16px;padding:16px;margin:14px 0}
+button,select{width:100%;padding:13px;margin-top:8px;border-radius:10px;font-size:16px}
 button{background:#e6c580;color:#101b2d;border:0;font-weight:bold}
 select{background:#101b2d;color:white;border:1px solid #536077}
-.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
-.ball{background:#293950;color:#e6c580;border-radius:10px;text-align:center;padding:10px 0;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+.ball{background:#293950;color:#e6c580;border-radius:9px;text-align:center;padding:10px 0;font-weight:bold}
 .ball small{display:block;font-size:10px}
 .hot{background:#e6c580;color:#101b2d}
 .hot small{color:#101b2d}
-.numbers{display:flex;gap:6px;flex-wrap:wrap}
+.numbers{display:flex;gap:5px;flex-wrap:wrap}
 .num{background:#e6c580;color:#101b2d;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:bold}
 .special{background:#b94c55;color:white}
-table{width:100%;border-collapse:collapse;font-size:14px}
-td,th{padding:10px 3px;border-bottom:1px solid #35445a;text-align:center}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:9px 2px;border-bottom:1px solid #35445a;text-align:center}
 th{color:#e6c580}
-.status{color:#80d9ad}
-.error{color:#ffaaaa}
+.bar{height:9px;background:#34445d;border-radius:6px;margin:5px 0 12px;overflow:hidden}
+.fill{height:100%;background:#e6c580}
+details{margin:12px 0}
+summary{color:#e6c580;font-weight:bold;padding:10px 0}
+.ok{color:#80d9ad}
+.err{color:#ffaaaa}
 </style>
 </head>
 <body>
-
 <h1>LOTTO AI PRO</h1>
-<small>私人數據研究室 V2.0</small>
+<small>私人數據研究室 V3.0</small>
 
 <div class="card">
 <h2>三彩資料庫</h2>
-<p id="database">正在讀取資料...</p>
+<p id="database">讀取中...</p>
 <select id="game" onchange="render()">
 <option value="lotto649">大樂透</option>
 <option value="super638">威力彩</option>
@@ -54,50 +58,95 @@ th{color:#e6c580}
 
 <div class="card">
 <h2>最新開獎號碼</h2>
-<p id="latestDate">尚未載入</p>
+<p id="latestDate"></p>
 <div class="numbers" id="latestNumbers"></div>
 <p id="special"></p>
 </div>
 
 <div class="card">
-<h2>歷史統計分析</h2>
+<h2>研究期數設定</h2>
 <select id="period" onchange="render()">
 <option value="10">最近10期</option>
 <option value="20">最近20期</option>
-<option value="30" selected>最近30期</option>
+<option value="30">最近30期</option>
 <option value="50">最近50期</option>
 <option value="100">最近100期</option>
-<option value="999999">全部資料</option>
+<option value="200">最近200期</option>
+<option value="999999" selected>全部資料</option>
 </select>
 <p id="summary"></p>
 <div class="grid" id="matrix"></div>
 </div>
 
 <div class="card">
-<h2>冷熱號及遺漏期數</h2>
+<h2>進階數據研究中心</h2>
+<details open>
+<summary>冷熱號與週期分析</summary>
 <table>
-<thead>
-<tr>
-<th>號碼</th>
-<th>出現次數</th>
-<th>遺漏期數</th>
-</tr>
-</thead>
+<thead><tr>
+<th>號碼</th><th>次數</th><th>遺漏</th><th>平均間隔</th><th>最大間隔</th>
+</tr></thead>
 <tbody id="stats"></tbody>
 </table>
+</details>
+
+<details>
+<summary>兩碼共同出現統計 TOP 20</summary>
+<table>
+<thead><tr><th>組合</th><th>次數</th><th>出現比例</th></tr></thead>
+<tbody id="pairs"></tbody>
+</table>
+</details>
+
+<details>
+<summary>三碼共同出現統計 TOP 20</summary>
+<table>
+<thead><tr><th>組合</th><th>次數</th><th>出現比例</th></tr></thead>
+<tbody id="triples"></tbody>
+</table>
+</details>
+
+<details>
+<summary>奇偶比例分析</summary>
+<div id="oddEven"></div>
+</details>
+
+<details>
+<summary>尾數分布及同尾數分析</summary>
+<div id="tails"></div>
+<p id="sameTail"></p>
+</details>
+
+<details>
+<summary>五大開頭區間分布</summary>
+<div id="zones"></div>
+<div id="zoneCount"></div>
+</details>
+
+<details>
+<summary>和值與連號分析</summary>
+<div id="sums"></div>
+<p id="consecutive"></p>
+</details>
 </div>
 
 <div class="card">
 <h2>最近20期開獎紀錄</h2>
 <table>
-<thead>
-<tr><th>日期</th><th>主號</th><th>特別號</th></tr>
-</thead>
+<thead><tr><th>日期</th><th>主號</th><th>附加號</th></tr></thead>
 <tbody id="history"></tbody>
 </table>
 </div>
 
-<p>歷史統計僅供研究，不代表未來開獎機率。威力彩統計以第一區為主。</p>
+<div class="card">
+<h2>策略驗證中心</h2>
+<p>歷史盲測：尚未實作</p>
+<p>跨彩種關聯：尚未實作</p>
+<p>隨機模型對照：尚未實作</p>
+<p>研究模式：零元模擬</p>
+</div>
+
+<p>歷史統計不代表未來開獎機率。公平開獎下，每組六碼的頭獎機率相同。</p>
 
 <script>
 const games={
@@ -118,75 +167,65 @@ function normalize(row,game){
  const nums=all.slice(0,cfg.size);
  if(nums.length!==cfg.size||
  new Set(nums).size!==cfg.size||
- nums.some(n=>!Number.isInteger(n)||n<1||n>cfg.max))
- return null;
-
+ nums.some(n=>!Number.isInteger(n)||n<1||n>cfg.max))return null;
  const date=String(row.lotteryDate||'').slice(0,10);
  if(!/^\d{4}-\d{2}-\d{2}$/.test(date))return null;
-
  let special=null;
  if(game!=='daily539'){
  const s=all[cfg.size];
  const max=game==='super638'?8:49;
- if(Number.isInteger(s)&&s>=1&&s<=max)
- special=s;
+ if(Number.isInteger(s)&&s>=1&&s<=max&&
+ (game==='super638'||!nums.includes(s)))special=s;
  }
-
- return {
- date:date,
- period:String(row.period||''),
- nums:nums.sort((a,b)=>a-b),
- special:special
- };
+ return {date,period:String(row.period||''),nums:nums.sort((a,b)=>a-b),special};
 }
 
 async function loadData(){
+ el('status').textContent='正在讀取資料...';
  el('status').className='';
- el('status').textContent='正在下載資料...';
  const errors=[];
-
  await Promise.all(Object.keys(games).map(async game=>{
  try{
- const url='data/'+game+'.json?t='+Date.now();
- const res=await fetch(url,{cache:'no-store'});
- if(!res.ok)throw new Error('HTTP '+res.status);
+ const res=await fetch('data/'+game+'.json?t='+Date.now(),{cache:'no-store'});
+ if(!res.ok)throw Error('HTTP '+res.status);
  const json=await res.json();
- if(!Array.isArray(json.records))
- throw new Error('資料格式錯誤');
-
  const unique=new Map();
  json.records.forEach(row=>{
  const r=normalize(row,game);
  if(r)unique.set(r.period||r.date,r);
  });
-
- const rows=[...unique.values()].sort(
- (a,b)=>a.date.localeCompare(b.date)
- ||a.period.localeCompare(b.period)
- );
-
- if(!rows.length)throw new Error('沒有有效資料');
-
- db[game]={
- rows:rows,
- updated:json.updated_at||'',
+ const rows=[...unique.values()].sort((a,b)=>a.date.localeCompare(b.date)||a.period.localeCompare(b.period));
+ if(!rows.length)throw Error('無有效資料');
+ db[game]={rows,updated:json.updated_at,
  rejected:json.records.length-rows.length,
- failed:json.failed_months||[]
- };
+ failed:json.failed_months||[]};
  }catch(e){
+ delete db[game];
  errors.push(games[game].name+': '+e.message);
  }
  }));
-
- el('database').textContent=Object.keys(games).map(
- g=>games[g].name+' '+(db[g]?db[g].rows.length+'期':'未載入')
- ).join('｜');
-
- el('status').className=errors.length?'error':'status';
- el('status').textContent=errors.length
- ?errors.join('；'):'三彩資料載入成功';
-
+ el('database').textContent=Object.keys(games).map(g=>games[g].name+' '+(db[g]?db[g].rows.length+'期':'未載入')).join('｜');
+ el('status').className=errors.length?'err':'ok';
+ el('status').textContent=errors.length?errors.join('；'):'三彩資料載入成功';
  render();
+}
+
+function inc(map,key){
+ map[key]=(map[key]||0)+1;
+}
+
+function comboTable(map,total){
+ return Object.entries(map)
+ .sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]))
+ .slice(0,20)
+ .map(([k,v])=>'<tr><td>'+k+'</td><td>'+v+'</td><td>'+(100*v/total).toFixed(1)+'%</td></tr>').join('');
+}
+
+function bars(map,total){
+ return Object.entries(map).map(([k,v])=>
+ '<small>'+k+'：'+v+'次 ('+(100*v/total).toFixed(1)+'%)</small>'+
+ '<div class="bar"><div class="fill" style="width:'+(100*v/total)+'%"></div></div>'
+ ).join('');
 }
 
 function render(){
@@ -194,77 +233,110 @@ function render(){
  const cfg=games[game];
  const data=db[game];
 
- el('matrix').innerHTML='';
- el('stats').innerHTML='';
- el('history').innerHTML='';
- el('latestNumbers').innerHTML='';
- el('latestDate').textContent='尚無資料';
- el('special').textContent='';
- el('summary').textContent='';
- el('updated').textContent='';
+ ['matrix','stats','pairs','triples','oddEven','tails','sameTail','zones','zoneCount','sums','consecutive','history','latestNumbers','special','summary','updated','latestDate'].forEach(id=>el(id).textContent='');
 
- if(!data)return;
+ if(!data){
+ el('latestDate').textContent='尚無資料';
+ return;
+ }
 
  const rows=data.rows;
  const latest=rows[rows.length-1];
+ const sample=rows.slice(-Number(el('period').value));
+ const N=sample.length;
 
  el('updated').textContent=
- '更新時間：'+(data.updated?
- new Date(data.updated).toLocaleString('zh-TW',
- {timeZone:'Asia/Taipei'}):'未知')
- +'｜略過資料：'+data.rejected
- +'｜失敗月份：'+data.failed.join(', ');
+ '更新時間：'+new Date(data.updated).toLocaleString('zh-TW',{timeZone:'Asia/Taipei'})+
+ '｜略過：'+data.rejected+
+ '｜失敗月份：'+(data.failed.join(', ')||'無');
 
- el('latestDate').textContent=
- latest.date+'｜第'+latest.period+'期';
+ el('latestDate').textContent=latest.date+'｜第'+latest.period+'期';
 
- el('latestNumbers').innerHTML=
- latest.nums.map(n=>
- '<span class="num">'+pad(n)+'</span>'
- ).join('');
+ el('latestNumbers').innerHTML=latest.nums.map(n=>'<span class="num">'+pad(n)+'</span>').join('');
 
  if(latest.special!==null){
- el('latestNumbers').innerHTML+=
- '<span class="num special">'+pad(latest.special)+'</span>';
- el('special').textContent=game==='super638'
- ?'紅色號碼為第二區':'紅色號碼為特別號';
+ el('latestNumbers').innerHTML+='<span class="num special">'+pad(latest.special)+'</span>';
+ el('special').textContent=game==='super638'?'紅色為第二區':'紅色為特別號';
  }
 
- const sample=rows.slice(-Number(el('period').value));
- el('summary').textContent='實際統計：'+sample.length+'期';
+ el('summary').textContent='實際分析：'+N+'期';
 
  const stats=Array.from({length:cfg.max},(_,i)=>{
  const n=i+1;
- const count=sample.filter(r=>r.nums.includes(n)).length;
+ const hits=[];
+ sample.forEach((r,j)=>{if(r.nums.includes(n))hits.push(j)});
+ const gaps=hits.slice(1).map((v,j)=>v-hits[j]);
  let gap=0;
  for(let j=rows.length-1;j>=0;j--){
  if(rows[j].nums.includes(n))break;
  gap++;
  }
- return {n,count,gap};
+ return {
+ n,count:hits.length,gap,
+ avg:gaps.length?(gaps.reduce((a,b)=>a+b,0)/gaps.length).toFixed(1):'—',
+ longest:gaps.length?Math.max(...gaps):'—'
+ };
  });
 
  const max=Math.max(...stats.map(s=>s.count));
 
- el('matrix').innerHTML=stats.map(s=>
- '<div class="ball '+(max>0&&s.count===max?'hot':'')+'">'
- +pad(s.n)+'<small>'+s.count+'次</small></div>'
- ).join('');
+ el('matrix').innerHTML=stats.map(s=>'<div class="ball '+(s.count===max&&max>0?'hot':'')+'">'+pad(s.n)+'<small>'+s.count+'次</small></div>').join('');
 
- el('stats').innerHTML=[...stats].sort(
- (a,b)=>b.count-a.count||a.n-b.n
- ).map(s=>
- '<tr><td>'+pad(s.n)+'</td><td>'+s.count+
- '</td><td>'+(s.gap===rows.length?'至少':'')+
- s.gap+'</td></tr>'
- ).join('');
+ el('stats').innerHTML=[...stats].sort((a,b)=>b.count-a.count||a.n-b.n).map(s=>'<tr><td>'+pad(s.n)+'</td><td>'+s.count+'</td><td>'+(s.gap===rows.length?'至少':'')+s.gap+'</td><td>'+s.avg+'</td><td>'+s.longest+'</td></tr>').join('');
 
- el('history').innerHTML=rows.slice(-20).reverse().map(r=>
- '<tr><td>'+r.date+'</td><td>'+
- r.nums.map(pad).join(' ')+'</td><td>'+
- (r.special===null?'—':pad(r.special))+
- '</td></tr>'
- ).join('');
+ const pairs={},triples={},odd={},tails={},zones={},zoneCount={},sums={};
+ let sameTail=0,consecutive=0;
+ let sumTotal=0,min=Infinity,maxSum=0;
+
+ for(let i=0;i<=cfg.size;i++)odd[i+'奇'+(cfg.size-i)+'偶']=0;
+ for(let i=0;i<10;i++)tails['尾數 '+i]=0;
+ for(let i=0;i<=Math.floor(cfg.max/10);i++)zones[i+'x區']=0;
+
+ sample.forEach(r=>{
+ const a=r.nums;
+ const o=a.filter(n=>n%2===1).length;
+ inc(odd,o+'奇'+(cfg.size-o)+'偶');
+
+ const tailSet=new Set(a.map(n=>n%10));
+ if(tailSet.size<a.length)sameTail++;
+
+ if(a.some((n,i)=>i>0&&n-a[i-1]===1))consecutive++;
+
+ inc(zoneCount,new Set(a.map(n=>Math.floor(n/10))).size+'種開頭');
+
+ a.forEach(n=>{
+ inc(tails,'尾數 '+n%10);
+ inc(zones,Math.floor(n/10)+'x區');
+ });
+
+ const sum=a.reduce((x,y)=>x+y,0);
+ sumTotal+=sum;
+ min=Math.min(min,sum);
+ maxSum=Math.max(maxSum,sum);
+ const low=Math.floor(sum/25)*25;
+ inc(sums,low+'–'+(low+24));
+
+ for(let i=0;i<a.length;i++){
+ for(let j=i+1;j<a.length;j++){
+ inc(pairs,pad(a[i])+' '+pad(a[j]));
+ for(let k=j+1;k<a.length;k++){
+ inc(triples,pad(a[i])+' '+pad(a[j])+' '+pad(a[k]));
+ }
+ }
+ }
+ });
+
+ el('pairs').innerHTML=comboTable(pairs,N);
+ el('triples').innerHTML=comboTable(triples,N);
+ el('oddEven').innerHTML=bars(odd,N);
+ el('tails').innerHTML=bars(tails,N*cfg.size);
+ el('sameTail').textContent='含同尾數：'+sameTail+'期，比例 '+(100*sameTail/N).toFixed(1)+'%';
+ el('zones').innerHTML=bars(zones,N*cfg.size);
+ el('zoneCount').innerHTML=bars(zoneCount,N);
+ el('sums').innerHTML='<p>平均和值：'+(sumTotal/N).toFixed(1)+'｜最低：'+min+'｜最高：'+maxSum+'</p>'+bars(Object.fromEntries(Object.entries(sums).sort((a,b)=>parseInt(a[0])-parseInt(b[0]))),N);
+ el('consecutive').textContent='含連號：'+consecutive+'期，比例 '+(100*consecutive/N).toFixed(1)+'%';
+
+ el('history').innerHTML=rows.slice(-20).reverse().map(r=>'<tr><td>'+r.date+'</td><td>'+r.nums.map(pad).join(' ')+'</td><td>'+(r.special===null?'—':pad(r.special))+'</td></tr>').join('');
 }
 
 loadData();
