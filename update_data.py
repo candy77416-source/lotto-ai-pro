@@ -15,7 +15,7 @@ GAMES = {
     "daily539": ("Daily539Result", "daily539Res")
 }
 
-HISTORY_MONTHS = 12
+HISTORY_MONTHS = 36
 
 def get_months(now):
     months = []
