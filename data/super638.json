@@ -1,8 +1,8 @@
 {
   "game": "super638",
   "source": "https://api.taiwanlottery.com/TLCAPIWeB/Lottery/SuperLotto638Result",
-  "updated_at": "2026-11-25T23:26:51.797404+08:00",
-  "count": 311,
+  "updated_at": "2026-11-26T23:23:53.964206+08:00",
+  "count": 312,
   "completed_months": [
     "2023-12",
     "2024-01",
@@ -26475,6 +26475,91 @@
         "prize": 1765000,
         "lastPrize": 0,
         "winnerCount": 17650,
+        "perPrize": 100
+      }
+    },
+    {
+      "period": 115000095,
+      "lotteryDate": "2026-11-26T00:00:00",
+      "redeemableDate": "2027-02-26T00:00:00",
+      "drawNumberSize": [
+        1,
+        14,
+        18,
+        21,
+        31,
+        35,
+        1
+      ],
+      "drawNumberAppear": [
+        18,
+        21,
+        14,
+        1,
+        35,
+        31,
+        1
+      ],
+      "totalAmount": 85937607,
+      "sellAmount": 53800400,
+      "super638JackpotAssign": {
+        "prize": 17296010,
+        "lastPrize": 51978878,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638SecondAssign": {
+        "prize": 2137709,
+        "lastPrize": 4368509,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "super638ThirdAssign": {
+        "prize": 900000,
+        "lastPrize": 0,
+        "winnerCount": 6,
+        "perPrize": 150000
+      },
+      "super638FourthAssign": {
+        "prize": 500000,
+        "lastPrize": 0,
+        "winnerCount": 25,
+        "perPrize": 20000
+      },
+      "super638FifthAssign": {
+        "prize": 652000,
+        "lastPrize": 0,
+        "winnerCount": 163,
+        "perPrize": 4000
+      },
+      "super638SixthAssign": {
+        "prize": 859200,
+        "lastPrize": 0,
+        "winnerCount": 1074,
+        "perPrize": 800
+      },
+      "super638SeventhAssign": {
+        "prize": 784000,
+        "lastPrize": 0,
+        "winnerCount": 1960,
+        "perPrize": 400
+      },
+      "super638EighthAssign": {
+        "prize": 2298800,
+        "lastPrize": 0,
+        "winnerCount": 11494,
+        "perPrize": 200
+      },
+      "super638NormalAssign": {
+        "prize": 2660900,
+        "lastPrize": 0,
+        "winnerCount": 26609,
+        "perPrize": 100
+      },
+      "super638NinthAssign": {
+        "prize": 1501600,
+        "lastPrize": 0,
+        "winnerCount": 15016,
         "perPrize": 100
       }
     }

@@ -1,8 +1,8 @@
 {
   "game": "daily539",
   "source": "https://api.taiwanlottery.com/TLCAPIWeB/Lottery/Daily539Result",
-  "updated_at": "2026-11-25T23:26:51.797404+08:00",
-  "count": 941,
+  "updated_at": "2026-11-26T23:23:53.964206+08:00",
+  "count": 942,
   "completed_months": [
     "2023-12",
     "2024-01",
@@ -34857,6 +34857,43 @@
       },
       "d539FourthAssign": {
         "winnerCount": 81012,
+        "perPrize": 50
+      }
+    },
+    {
+      "period": 115000286,
+      "lotteryDate": "2026-11-26T00:00:00",
+      "redeemableDate": "2027-02-26T00:00:00",
+      "drawNumberSize": [
+        12,
+        13,
+        14,
+        21,
+        36
+      ],
+      "drawNumberAppear": [
+        14,
+        21,
+        36,
+        12,
+        13
+      ],
+      "sellAmount": 34397700,
+      "totalAmount": 18430300,
+      "d539JackpotAssign": {
+        "winnerCount": 1,
+        "perPrize": 8000000
+      },
+      "d539SecondAssign": {
+        "winnerCount": 214,
+        "perPrize": 20000
+      },
+      "d539ThirdAssign": {
+        "winnerCount": 7752,
+        "perPrize": 300
+      },
+      "d539FourthAssign": {
+        "winnerCount": 76494,
         "perPrize": 50
       }
     }
