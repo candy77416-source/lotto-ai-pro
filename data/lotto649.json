@@ -1,8 +1,8 @@
 {
   "game": "lotto649",
   "source": "https://api.taiwanlottery.com/TLCAPIWeB/Lottery/Lotto649Result",
-  "updated_at": "2026-11-26T23:23:53.964206+08:00",
-  "count": 353,
+  "updated_at": "2026-11-27T23:19:23.871936+08:00",
+  "count": 354,
   "completed_months": [
     "2023-12",
     "2024-01",
@@ -25809,6 +25809,79 @@
         "prize": 13580000,
         "lastPrize": 0,
         "winnerCount": 33950,
+        "perPrize": 400
+      }
+    },
+    {
+      "period": 115000109,
+      "lotteryDate": "2026-11-27T00:00:00",
+      "redeemableDate": "2027-03-02T00:00:00",
+      "drawNumberSize": [
+        11,
+        20,
+        27,
+        32,
+        37,
+        47,
+        30
+      ],
+      "drawNumberAppear": [
+        20,
+        27,
+        32,
+        11,
+        47,
+        37,
+        30
+      ],
+      "totalAmount": 81152323,
+      "sellAmount": 94933150,
+      "jackpotAssign": {
+        "prize": 21483314,
+        "lastPrize": 18266126,
+        "winnerCount": 0,
+        "perPrize": 0
+      },
+      "secondAssign": {
+        "prize": 1702945,
+        "lastPrize": 9723633,
+        "winnerCount": 2,
+        "perPrize": 5713289
+      },
+      "thirdAssign": {
+        "prize": 1833941,
+        "lastPrize": 0,
+        "winnerCount": 29,
+        "perPrize": 63239
+      },
+      "fourthAssign": {
+        "prize": 1178962,
+        "lastPrize": 0,
+        "winnerCount": 87,
+        "perPrize": 13551
+      },
+      "fifthAssign": {
+        "prize": 3354000,
+        "lastPrize": 0,
+        "winnerCount": 1677,
+        "perPrize": 2000
+      },
+      "sixthAssign": {
+        "prize": 2119000,
+        "lastPrize": 0,
+        "winnerCount": 2119,
+        "perPrize": 1000
+      },
+      "seventhAssign": {
+        "prize": 8978000,
+        "lastPrize": 0,
+        "winnerCount": 22445,
+        "perPrize": 400
+      },
+      "normalAssign": {
+        "prize": 12512400,
+        "lastPrize": 0,
+        "winnerCount": 31281,
         "perPrize": 400
       }
     }
